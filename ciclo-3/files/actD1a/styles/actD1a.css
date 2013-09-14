@@ -1,0 +1,81 @@
+#section {
+	background-position: -1200px 0;
+}
+
+#desk{
+	width: 520px;
+	height:253px;
+	background: transparent url('../images/actD1a.gif') no-repeat -3120px top;
+	left: 450px;
+	top: 50px;
+	position: absolute;
+}
+
+#capas div{
+	width: 520px;
+	height:253px;
+	background: transparent url('../images/actD1a.gif') no-repeat 800px top;
+	left: 450px;
+	top: 50px;
+	position: absolute;
+}
+
+#drags  div {
+	width: 150px; height: 30px;
+	position: absolute;
+	font: normal normal bold 12pt/30px  sans-serif;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+	cursor: move;	
+}
+
+#drops div {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	font: normal normal bold 10pt/10pt sans-serif;
+	color: #006;
+}
+/* iniDrag */
+.actD1a-iniDrag {
+	background: transparent url(../../main/images/cajas/150x30.gif) no-repeat left top;
+	color: #400;
+}
+
+/* enterDrag */
+.actD1a-enterDrag {
+	background-position: -150px top;
+	color: #400;
+}
+
+/* dragDrag */
+.actD1a-dragDrag {
+	background-position: -300px top;
+	color: #003;
+}
+
+
+/* iniDrop */
+.actD1a-iniDrop {
+	visibility: hidden;
+}
+
+/* overDrop */
+.actD1a-overDrop {
+	visibility: hidden;
+}
+
+
+#lyrics {
+	position:absolute;
+	top: 50px;
+	left: 50px;
+	width: 350px;
+	height: 250px;
+	white-space: normal;
+}
+#lyrics div{
+	width: 100%;
+	font: normal normal bold 20px/40px sans-serif;
+}

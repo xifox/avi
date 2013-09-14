@@ -1,0 +1,75 @@
+#section {
+	background-position: -3200px top;
+}
+
+
+#numbers div {
+	font: normal normal normal 18px/30px sans-serif; 
+	width: 150px; height: 30px;
+	text-align: center;
+	position: absolute;
+}
+
+#txtNumbers div {
+	text-align: center;
+	cursor: move;
+}
+
+#tabla {
+	width: 200px; height: 535px;
+	float: right;
+}
+
+#tabla table {
+	width: 184px; height: 80px;
+
+}
+
+#tabla td {
+	width: 184px; height: 20px;
+	font: normal normal bold 15px/30px sans-serif;
+	text-align: center;
+	padding: 2px 0 0 0;
+	background-color: #fff6ff;
+}
+
+.celdaOk {
+	background: transparent url(../../main/images/cajas/180x30.gif) no-repeat -720px top;
+}
+
+/* iniDrag */
+.actI1a-iniDrag {
+	width: 150px; height: 30px;
+	background: transparent url(../../main/images/cajas/150x30.gif) no-repeat -150px top;
+	font: normal normal bold 18px/30px sans-serif;
+}
+
+/* enterDrag */
+.actI1a-enterDrag {
+	font: normal normal bold 18px/30px sans-serif;
+	background-position: -300px top;
+	color:  #400;
+}
+
+/* dragDrag */
+.actI1a-dragDrag {
+	font: normal normal bold 18px/30px sans-serif;
+	color:  #004
+}
+
+
+/* iniDrop */
+.actI1a-iniDrop {
+ 	background: transparent url(../../main/images/cajas/150x30.gif) no-repeat left top;	
+}
+
+/* overDrop */
+.actI1a-overDrop {
+ 	background: transparent url(../../main/images/cajas/150x30.gif) no-repeat -450px top;
+}
+
+/* trueDrop */
+.actI1a-trueDrop {
+	background-position: -750px top;
+	color: #040;
+}

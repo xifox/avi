@@ -1,0 +1,40 @@
+#section {
+	background-position: -4400px top;
+}
+
+#text {
+	width: 740px; height: 325px;
+	position: relative;
+}
+
+#text div {
+	font: normal normal normal 30px/1.4em sans-serif; 
+	text-align: right;
+	width: 715px;  
+	padding: 60px 0 60px 25px;
+	float: left;
+ 
+}
+
+#bgdrops div, #drops div, #drags div {
+	background: transparent url(../images/filmL2c.png) no-repeat left;
+	width: 150px; height: 120px;
+}
+
+#drags div {
+	cursor: move;
+}
+
+#drops, #bgdrops {
+	width: 150px; height: 240px;
+	position: absolute;
+	right: 75px; top: 25px;
+}
+
+
+#drops {z-index: 20;}
+#bgdrops {z-index: 10;}
+
+#drops div {background-position: 150px top; margin-bottom: 30px}
+#bgdrops div {background-position: -300px top; margin-bottom: 30px}
+

@@ -1,0 +1,20 @@
+/*
+	category: Cajas CSS
+	name: caja 150x30
+	toolTip: Agrega las clases de css automaticamente.
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/css
+	
+	prompt(elementos): prefijo Definido ?
+*/
+
+/* ${elementos} div - Cajas de 150x30  */
+${elementos} {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat left -400px;
+	width: 150px; height: 30px;
+	font: normal normal bold 13pt/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}

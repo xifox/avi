@@ -1,0 +1,8 @@
+#drops p {
+	background-image: url(../../main/images/cajas/800x100.gif);
+}
+
+/* iniDrag: Configuracion inicial del drag */
+.actJ1a-iniDrag {
+	background-image: url(../../main/images/cajas/120x28.gif);
+}

@@ -1,0 +1,37 @@
+/*
+	category: MemoTest (4x3)
+	name: CSS
+	toolTip: Esquema basico de la sopa de letras
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/javascript
+	
+	prompt(desk): Cantidad de filas
+	prompt(film): Cantidad de columas
+*/
+#${desk} {
+	position: absolute;
+	width: 560px; height: 535px;
+	left: 220px; top: 0;
+	z-index: 0;
+}
+
+#${desk} div {
+	position: relative;
+	width: 130px; height: 130px;
+	float: left; z-index: 5;
+	background: url(../images/filmE1a.gif) no-repeat 130px top;
+	margin: 0 10px 5px 0;
+	text-align: center;
+	font: normal normal bold 25px/130px sans-serif;
+}
+
+#${desk} div div {
+	position: absolute;
+	z-index: 0;
+	left: 0px; top: 0px; 
+	width: 130px; height: 130px;
+	background: url(../images/filmE1a.gif) no-repeat -1040px top;
+	cursor: pointer;
+	}

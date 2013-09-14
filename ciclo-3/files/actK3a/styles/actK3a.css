@@ -1,0 +1,32 @@
+#section {
+	background-position: -4000px top;
+}
+
+#Image {
+ 	width: 450px; height: 476px;
+	margin: 15px 0 0 15px;
+	float: left;
+	background: transparent url(../images/deskK3a.png) no-repeat left top;
+
+}
+
+#Texts {
+	width: 510px; height: 535px;
+}
+
+#Texts div {
+	font: normal normal normal 24pt/1.3em sans-serif;	
+	margin-bottom: 30px;
+	white-space: normal;
+}
+
+#Texts div span {
+	color: white;
+	border-bottom: dashed #6a93c7;
+}
+
+#Texts {
+	float: right;
+}
+ 
+ 

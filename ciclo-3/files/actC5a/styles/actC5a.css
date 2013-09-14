@@ -1,0 +1,130 @@
+#section {
+	background-position: -800px top;
+}
+
+#frase {
+	width: 800px; height: 80px;
+	padding: 10px;
+	border: 1px solid #757575;
+	position: absolute;
+	left: 100px; top: 150px;
+	font: normal normal bold 45pt/80px sans-serif;
+	background: #F5F5F5;
+}
+
+#frase p {
+	padding: 0 10px;
+	display: none;
+}
+
+
+/* actC5a div - Cajas de 180x30  */
+#drags div {
+	width: 180px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* iniDrag */
+.words-iniDrag {
+	color: #400;	
+ 	background: transparent url(../../main/images/cajas/180x30.gif) no-repeat left top;
+}
+
+/* enterDrag */
+.words-enterDrag {
+	color: #420;
+	background-position: -180px top;
+}
+
+/* dragDrag */
+.words-dragDrag {
+	color: #003;
+	background-position: -360px top;
+}
+
+
+/* iniDrop */
+.words-iniDrop {
+}
+
+/* overDrop */
+.words-overDrop {
+	background: #EEF;
+}
+
+
+#letterDrags {
+	width: 600px; height: 0;
+	left: 200px; top: 350px;
+}
+
+/*** drags letterDrags div - Cajas de 40x40 ***/
+#letterDrags div, #most {
+	width: 40px; height: 40px;
+	font: normal normal bold 25px/40px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+	margin: 10px;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.letter-iniDrag, #most {
+	background: transparent url(../../main/images/cajas/40x40.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.letter-enterDrag {
+	color: #040;
+	background-position: -40px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.letter-dragDrag {
+	color: #004;
+	background-position: -40px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.letter-iniDrop {
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.letter-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.letter-trueDrop {
+	color: #0A0;
+}
+
+/*** Fin estilo de cajas 40x40 del objeto letterDrags ***/
+.chotos {
+	border: 1px solid #757575;
+}
+
+.txt-visible {
+	border-bottom: 2px dashed #757575;
+}
+
+.txt-hidden {
+	visibility: hidden;
+}
+
+#most {
+	background: transparent none ;
+	border: 1px solid #757575;
+	width: 100px;
+}

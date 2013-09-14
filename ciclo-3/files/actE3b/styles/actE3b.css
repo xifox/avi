@@ -1,0 +1,78 @@
+#section {
+	background-position: -1600px top;
+}
+
+#content table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 1000px;
+	font: normal normal bold 18pt/36px sans-serif;
+	vertical-align: middle;
+	margin: 40px auto;
+}
+
+#content tr {
+	height: 36px;
+}
+
+#content td {
+	width: 200px;
+	border: 1px solid #757575;
+	text-align: center;
+
+}
+
+.drops td {
+	height: 200px;
+}
+
+.trHeader td {
+	background-color: #deF;
+}
+
+#texts {
+	position: absolute;
+	width: 800px; height: 250px;
+	left: 100px; bottom: 0px;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+#drags div {
+	width: 180px; height: 180px;
+	background: transparent url(../images/actE3b.gif) no-repeat left top;
+	cursor: move;
+}
+
+
+/* iniDrag */
+.actE3a-iniDrag {
+	
+}
+
+/* enterDrag */
+.actE3a-enterDrag {
+	
+}
+
+/* dragDrag */
+.actE3a-dragDrag {
+	
+}
+
+
+/* iniDrop */
+.actE3a-iniDrop {
+	background-color: #EEE;
+}
+
+/* overDrop */
+.actE3a-overDrop {
+	background-color: #ADF;
+}
+
+/* trueDrop */
+.actE3a-trueDrop {
+	background-color: #AFA;
+}
+

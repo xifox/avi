@@ -1,0 +1,64 @@
+#section {
+	background-position: -1600px top;
+}
+
+#forest {
+	position: absolute;
+	width: 567px; height: 370px;
+	left: 50px; top: 10px;
+	background: transparent url(../images/deskE6a.gif) no-repeat left top;
+}
+
+#drops {
+	position: absolute;
+	width: 340px; height: 200px;
+	left: 640px; top: 0;
+	line-height: 40px;
+}
+
+#drops p{
+	font: normal normal bold 19pt/1.6em sans-serif;
+	margin-bottom: 30px;
+	white-space: normal;
+}
+
+/* drags div div - Cajas de 180x30  */
+#drags div {
+	width: 180px; height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* iniDrag */
+.actE6a-iniDrag {
+	background: transparent url(../../main/images/cajas/180x30.gif) no-repeat left top;
+	color: #004;
+	font: normal normal bold 17px/30px sans-serif;
+}
+
+/* enterDrag */
+.actE6a-enterDrag {
+	background-position: -180px top;
+	color: #400;
+}
+
+/* dragDrag */
+.actE6a-dragDrag {
+	background-position: -360px top;
+	color: #004;
+}
+
+/* iniDrop */
+.actE6a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F3F3F3;
+}
+
+/* overDrop */
+.actE6a-overDrop {
+	border-bottom: 2px dashed #08A;
+	background: #AEF;
+}
+
+

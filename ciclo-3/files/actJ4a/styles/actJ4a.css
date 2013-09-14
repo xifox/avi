@@ -1,0 +1,28 @@
+#section {
+	background-position: -3600px top;
+}
+
+#swapWords div {
+	font: normal normal bold 20px/40px sans-serif;
+	width:860px; height: 40px;
+	border: 1px solid #FFF;
+	background-color: #FFF;
+	margin: 19px 0 39px 19px;
+	float: left;
+	padding: 0 40px;
+	cursor: move;
+}
+
+
+#swapWords div span {
+	font: normal normal bold 20px/40px sans-serif;
+	width: 100px; height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	position: absolute;
+}
+
+.drag {
+	background: #EFE;
+}

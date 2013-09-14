@@ -1,0 +1,37 @@
+#section {
+	background-position: -4400px top;
+}
+
+#drops {
+	position: absolute;
+}
+
+#drops div {
+	position: relative;
+	float: left;
+	background: transparent url(../images/filmL1a.png) left top;
+	width: 230px; height: 180px;
+	margin: 10px 50px;
+}
+
+/* #drops div span - Cajas de 230x50  */
+#drops div span {
+	display: block;
+	position: absolute;
+	bottom: 0;
+ 	background: transparent url(../../main/images/cajas/230x50.gif) no-repeat left top;
+	width: 230px; height: 50px;
+	font: normal normal bold 25pt/50px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* #drags div - Cajas de 180x50  */
+#drags div {
+ 	background: transparent url(../../main/images/cajas/180x50.gif) no-repeat -180px top;
+	width: 180px; height: 50px;
+	font: normal normal bold 20pt/50px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}

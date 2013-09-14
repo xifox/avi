@@ -1,0 +1,42 @@
+/*
+	category: CSS
+	name: DxD-cssClass
+	toolTip: Agrega las clases de css de un objeto DxD.Base (o extendido) automaticamente.
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/css
+	
+	prompt(prefijo): prefijo Dedinido ?
+*/
+
+/* iniDrag */
+.${prefijo}-iniDrag {
+	
+}
+
+/* enterDrag */
+.${prefijo}-enterDrag {
+	
+}
+
+/* dragDrag */
+.${prefijo}-dragDrag {
+	
+}
+
+
+/* iniDrop */
+.${prefijo}-iniDrop {
+	
+}
+
+/* overDrop */
+.${prefijo}-overDrop {
+	
+}
+
+/* trueDrop */
+.${prefijo}-trueDrop {
+	
+}

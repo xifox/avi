@@ -1,0 +1,132 @@
+#section {
+	background-position: -4400px top;
+}
+
+#sentences {
+	float: right;
+	width: 552px; height: 535px;
+}
+
+#sentences p {
+	font: normal normal bold 18px/3em sans-serif; 
+	white-space: normal;
+	display: block;
+	clear: both;
+}
+
+#swords {
+	width: 900px;
+	left: 50px; top: 500px;
+}
+.txt-visible {
+	margin-right: 4px;
+	float: left;
+}
+
+.txt-hidden {
+	display: block;
+	width: 100px; height: 30px;
+}
+
+/*** drags sword div - Cajas de 150x75 ***/
+#swords div  {
+	width: 150px; height: 30px;
+	font: normal normal bold 16pt/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+	margin: 0 10px;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actL3a-iniDrag {
+	background: transparent url(../../main/images/cajas/150x30.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actL3a-enterDrag {
+	color: #040;
+	background-position: -150px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actL3a-dragDrag {
+	color: #004;
+	background-position: -300px top;
+}
+
+
+/* Elementos Drop */
+.txt-visible {
+	border-bottom: 2px solid #FFF;
+}
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actL3a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actL3a-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actL3a-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 150x75 del objeto sword ***/
+
+
+/* Estilos para sopa de letras */
+
+#sopa table{
+	position: absolute;
+	top: 15px; left: 10px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	float: left;
+	border: 2px solid #EEE;
+	font: normal normal bold 18pt/40px sans-serif;
+}
+
+#sopa tr {
+	height: 40px;
+	padding: 0px; margin: 0px;
+}
+
+#sopa td {
+	width: 40px;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.tdNormal, .charInWord {
+	background-color: #F5F5F5;
+	border: 1px solid #EEE;
+}
+
+.charInWord {
+}
+
+.tdHover {
+	cursor: pointer;
+	background-color: #ADF;
+	color: #004;
+}
+
+.tdClick {
+	background-color: #06A;
+	color: #EEF;
+}
+
+.tdOk {
+	background: #4A4;
+	color: #EFE;
+}
+ 

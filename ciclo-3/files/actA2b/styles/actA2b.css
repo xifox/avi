@@ -1,0 +1,46 @@
+#daystable table {
+	position: absolute;
+	top: 40px;
+	margin: 0 auto;
+ 	border-spacing: 0;
+  	border-collapse: collapse;
+  	table-layout: fixed;
+}
+
+#daystable table td , #asignatures div {
+	width: 165px; height: 35px;
+  	border: 1px solid #666;
+	font: normal normal normal 20px/35px sans-serif;
+	text-align: center;
+}
+
+#daystable table thead td {
+	background: #EEE;
+	border: 0px;
+	color: #888;
+	border-bottom: 3px solid #666;
+}
+
+#daystable table thead, #daystable table tbody {
+	border: 3px solid #666;
+}
+
+
+
+#oraciones {
+	position: absolute;
+	left: 50px; bottom: 0;
+	width: 800px;
+}
+
+#oraciones div {
+	font: normal normal normal 30px/45px sans-serif; 
+	width: 100%; height: 45px;
+	margin-top: 10px;
+}
+
+#oraciones div span {
+	color: white;
+	border-bottom: 3px dashed #757575;
+	width: 150px;
+}

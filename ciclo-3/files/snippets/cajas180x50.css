@@ -1,0 +1,20 @@
+/*
+	category: CSS
+	name: cajas 180x50
+	toolTip: Agrega las clases de css automaticamente.
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/css
+	
+	prompt(prefijo): prefijo Dedinido ?
+*/
+
+/* ${prefijo} div - Cajas de 180x50  */
+${prefijo} div {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat left -40px;
+	width: 180px; height: 50px;
+	font: normal normal bold 36px/50px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}

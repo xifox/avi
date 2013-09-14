@@ -1,0 +1,103 @@
+#section {
+	background-position: -800px top;
+}
+
+.bloques {
+	clear: both;
+	font-size: 25px;
+	font-weight: bold;
+	height: 5.5em;
+	width: 600px;
+	margin: 0 auto;
+	color: #36A;
+}
+
+.bloques div {
+	float: left;
+	margin: 2em 0.2em;
+}
+.bloques span {
+	background: transparent url(../images/filmC2a.png) no-repeat left top;
+	display: block;
+	width: 5em; height: 5em;
+	float: left;
+}
+
+
+.frases {
+	font: normal normal normal 30px/1.3em sans-serif;
+	margin-left: 20px;
+	
+}
+.frases p{
+	height: 43px;
+	clear: both;
+}
+
+.frases p span span {
+	margin: 0 0 0 0;
+}
+
+.frases div {
+	margin: 0 0 20px 0;
+}
+
+#swords {
+	width: 150px;
+	left: 800px; top: 50px;
+}
+
+/* swords div - Cajas de 150x30  */
+#swords div {
+	width: 150px; height: 30px;
+	font: normal normal bold 10pt/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+	margin: 5px 0;
+}
+
+/* iniDrag */
+.actC2a-iniDrag {
+	color: #400;	
+	background: transparent url(../../main/images/cajas/150x30.gif) no-repeat left top;
+}
+
+/* enterDrag */
+.actC2a-enterDrag {
+	color: #040;
+	background-position: -150px top;
+}
+
+/* dragDrag */
+.actC2a-dragDrag {
+	color: #004;
+	background-position: -300px top;
+}
+
+
+/* iniDrop */
+.actC2a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5FF;
+}
+
+/* overDrop */
+.actC2a-overDrop {
+	border-bottom-color: #0AF;
+	background: #AEF;
+}
+
+.txt-visible {
+	display: block;
+	float: left;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+
+.txt-hidden {
+	display: block;
+	width: 150px;
+	float: left;
+	font-size: 1px;
+}

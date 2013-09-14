@@ -1,0 +1,61 @@
+#section {
+	background-position: -2400px top;
+}
+
+#desk-film, #desk-film div {
+	width: 700px; height: 535px;
+	margin: 0 auto;
+	position: relative;
+	background: transparent url(../images/filmG1a-v2.png) no-repeat left top;
+}
+
+#desk-film div {
+	position: absolute;
+	background-position: 700px top;
+}
+
+/* #town div - Cajas de 180x30  */
+#town div {
+	width: 180px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* iniDrag */
+.actG1a-iniDrag {
+	background: transparent url(../../main/images/cajas/180x30.gif) no-repeat left top;	
+	color: #00F;
+}
+
+/* enterDrag */
+.actG1a-enterDrag {
+	background-position: -180px top;	
+	color: #0F0;
+}
+
+/* dragDrag */
+.actG1a-dragDrag {
+	background-position: -360px top;	
+	color: #F00;
+}
+
+#drops div {
+	width: 200px; height: 100px;
+	position: absolute;
+}
+
+/* iniDrop */
+.actG1a-iniDrop {
+}
+
+/* overDrop */
+.actG1a-overDrop {
+	color: #AAA;
+}
+
+/* trueDrop */
+.actG1a-trueDrop {
+	color: yellow;
+}

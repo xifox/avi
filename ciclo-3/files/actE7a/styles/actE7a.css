@@ -1,0 +1,52 @@
+#section {
+	background-position: -1600px top;
+}
+
+#drops {
+	position: absolute;
+}
+
+#drops div {
+	position: relative;
+	float: left;
+	background: transparent url(../images/filmE7a.png) left top;
+	width: 230px; height: 180px;
+	margin: 10px 50px;
+}
+
+#drops div span {
+	display: block;
+	position: absolute;
+	bottom: 0;
+ 	background: transparent url(../../main/images/cajas/230x50.gif) no-repeat left top;
+	width: 230px; height: 50px;
+	font: normal normal bold 19pt/50px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* #drags div - Cajas de 230x50  */
+#drags div {
+	background: transparent url(../../main/images/cajas/180x50.gif) no-repeat -180px top;
+	width: 180px; height: 50px;
+	font: normal normal bold 13pt/50px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+	
+}
+
+/* iniDrag */
+.ActE7a-iniDrag {
+	background: transparent url(../../main/images/cajas/180x50.gif) no-repeat left top;	
+}
+
+/* enterDrag */
+.ActE7a-enterDrag {
+	background-position: -460px -140px;
+}
+
+/* dragDrag */
+.ActE7a-dragDrag {
+	color: blue;
+}

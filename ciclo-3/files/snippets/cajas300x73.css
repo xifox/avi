@@ -1,0 +1,20 @@
+/*
+	category: CSS
+	name: cajas 300x73
+	toolTip: Agrega las clases de css automaticamente.
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/css
+
+	prompt(prefijo): prefijo Dedinido ?
+*/
+
+/* ${prefijo} div - Cajas de 300x73  */
+${prefijo} div {
+ 	background: transparent url(../../main/images/caja300x73.gif) no-repeat left bottom; 
+	width: 300px; height: 73px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}

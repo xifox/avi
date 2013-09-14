@@ -1,0 +1,79 @@
+#section {
+	background-position: -800px top;
+}
+
+#words{
+	position:absolute;
+	left: 250px;
+	width: 700px;
+}
+#words div {
+	width: 150px;
+	height: 80px;
+	float:left;
+	white-space:normal;
+	margin-left: 15px;
+	vertical-align:middle;
+	text-align:center;
+	font: normal normal bold 23px/30px sans-serif;
+}
+#blocks{
+	width: 850px;
+	height: 450px;
+	position:absolute;
+	top: 100px;
+	left: 250px; 
+}
+#blocks div{
+	
+	width:160px; height: 300px;
+	float: left;	
+	margin-right: 15px;
+	font: normal normal bold 18px/30px sans-serif;
+	text-align:center;
+}
+#blocks div span{
+	width: 150px;
+	margin: 0px 0px 0px 10px;
+	float:left;
+	font: normal normal bold 15px/30px sans-serif;
+}
+#drags{
+	width: 200px;
+	height: 500px;
+	position: absolute;
+	text-align: center;
+}
+#drags div{
+}
+
+.actC3a-iniDrag {
+ 	background: transparent url(../../main/images/cajas/180x30.gif) no-repeat -360px top;
+	text-align: center;
+	vertical-align: middle;
+	font: normal normal bold 18px/30px sans-serif;
+	width: 180px; height: 30px;
+	cursor: move;
+}
+
+.actC3a-enterDrag {
+	color: #004;
+	background-position: -180px top;
+}
+
+.actC3a-dragDrag {
+	color: #000;
+	background-position: -360px top;
+}
+
+.actC3a-iniDrop {
+	background: transparent url(../images/actC3a-1.png) no-repeat -480px top;
+}
+
+.actC3a-overDrop {
+	background-position: -160px top;
+}
+
+.actC3a-overTrueDrop {
+	background-color: #FFE;
+}

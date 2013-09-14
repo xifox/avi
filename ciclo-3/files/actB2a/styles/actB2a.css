@@ -1,0 +1,72 @@
+
+#section {
+	background-position: -400px top;
+	
+}
+#section {
+	background-position: -399px top;
+}
+
+/* #texts div - Cajas de 230x50  */
+#texts div {
+	width: 290px; height: 40px;
+	padding: 5px;
+	font: normal normal normal 17px/20px sans-serif;
+	text-align: center;
+	white-space: normal;
+	cursor: move;
+}
+
+#vinetas {
+	width: 600px; height: 535px;
+	float: right;
+	background: transparent url(../images/deskB2a.png) no-repeat left top;
+}
+
+#cuadros div {
+	width: 285px; height: 40px;
+	position: absolute;
+	white-space: normal;
+	font: normal normal bold 12px/18px sans-serif;
+}
+
+/* iniDrag */
+.actB2a-iniDrag {
+	background: transparent url(../../main/images/cajas/300x50.gif) no-repeat left bottom; 
+}
+
+/* enterDrag */
+.actB2a-enterDrag {
+	background-position: -300px top;
+	color: #004;
+}
+
+/* dragDrag */
+.actB2a-dragDrag {
+	background-position: -600px top;
+	color: #024;
+}
+
+
+/* iniDrop */
+.actB2a-iniDrop {
+	color: #03A;	
+}
+
+/* overDrop */
+.actB2a-overDrop {
+	color: #000;
+}
+
+/* trueDrop */
+.actB2a-trueDrop {
+	background-position: -600px top;
+	color: #020;
+}
+
+.ok{
+	color: green;
+}
+.error {
+	color: red;
+}

@@ -1,0 +1,119 @@
+#section {
+	background-position: -2800px top;
+}
+
+#images, #images div {
+	width: 500px; height: 400px;
+
+}
+
+#images {
+	background: transparent url(../images/filmH2a.png) no-repeat -2000px top;	
+	position: absolute;
+	top: 85px;
+	left: 400px;
+}	
+
+#images div {
+background: transparent url(../images/filmH2a.png) no-repeat -3000px top;	
+	position: absolute;
+}
+
+#drags{
+	
+}
+/* drags div - Cajas de 150x30  */
+#drags div {
+	width: 150px; height: 30px;
+	font: normal normal bold 13pt/30px sans-serif;
+	text-align: center;
+	position: absolute;
+	vertical-align: middle;
+	cursor: move;
+}
+
+#texts  {
+	width: 500px; height: 440px;
+	position: absolute;
+	top:  110px;
+	left: 15px;
+	font: normal normal bold 14pt/30px sans-serif;
+}
+#texts div {
+	margin-bottom: 25px;
+}
+
+#drops_txt {
+	width: 800px; height:100px;
+	position: absolute;
+	top: 30px;
+	right: 0px;
+}
+/* drops div - Cajas de 180x50  */
+#drops_txt div {
+	width: 180px; height: 50px; 
+	margin: 0 5px 5px 0;
+	white-space: normal;
+	font: normal normal normal 20px/50px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}	
+#drops_img div {
+	width: 125px;
+	height: 125px;
+	position: absolute;
+	font: normal normal bold 22pt/250px sans-serif;
+}
+
+/* iniDrag */
+.actH2a_img-iniDrag {
+ 	background: transparent url(../../main/images/cajas/150x30.png) no-repeat left top;	
+}
+
+/* enterDrag */
+.actH2a_img-enterDrag {
+	background-position: -150px top;
+}
+
+/* dragDrag */
+.actH2a_img-dragDrag {
+	background-position: -300px top;
+}
+
+
+/* iniDrop */
+.actH2a_img-iniDrop {
+	color: #A24;
+}
+
+/* overDrop */
+.actH2a_img-overDrop {
+	
+}
+
+/* trueDrop */
+.actH2a_img-trueDrop {
+	
+}
+/**************************
+ * 
+ * ************************/
+
+/* iniDrop */
+.actH2a_txt-iniDrop {
+	background: transparent url(../../main/images/cajas/180x50.png) no-repeat left top;
+}
+
+/* overDrop */
+.actH2a_txt-overDrop {
+	background-position: -180px top;	
+}
+
+/* trueDrop */
+.actH2a_txt-trueDrop {
+	background-position: -360px top;
+}
+
+	
+

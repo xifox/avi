@@ -1,0 +1,8 @@
+#content div div {
+	background: transparent url(../images/filmC1b.gif) no-repeat -1200px top;
+
+}
+
+#col1 div, #col1 div span {
+	background: transparent url(../images/filmC1b.gif) no-repeat left top;
+}

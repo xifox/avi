@@ -1,0 +1,11 @@
+#mainMenu a {
+		background-image: url(../images/btnMainMenu.gif);
+}
+
+#mainMenu a:hover {
+	background-position: -180px top;	
+}
+
+#actCaption {
+	background-image: url(../images/caps.gif);
+}

@@ -1,0 +1,65 @@
+#section {
+	background-position: -3600px top;
+}
+
+#sentences {
+	width: 600px; height:250px;
+	margin-left: 15px;
+	padding-top: 25px;
+	}
+	
+#sentences p {
+	width: 100%; height: 100px;
+	font: normal normal bold 26pt/1.1em sans-serif;
+}
+
+
+	/*** drags drags div - Cajas de 180x30 ***/
+#drags div {
+	width: 180px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actj5a-iniDrag {
+	background: transparent url(../../main/images/cajas/180x30.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actj5a-enterDrag {
+	color: #040;
+	background-position: -180px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actj5a-dragDrag {
+	color: #004;
+	background-position: -180px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actj5a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actj5a-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actj5a-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 180x30 del objeto drags ***/

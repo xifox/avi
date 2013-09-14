@@ -1,0 +1,45 @@
+#section {
+	background-position: -1200px top;
+}
+
+#questions h4{
+	font-size: 22px;
+}
+#questions {
+	width: 100%;
+	height: 520px;
+	margin: 0 auto;
+}
+
+#questions div{
+	font: normal normal normal 20px/30px sans-serif;
+	float: left;
+	width: 450px;
+	height: 150px;
+	padding-bottom: 20px;
+	padding-left:50px;
+}
+
+#questions div p {
+	color: #00F; 
+	font-size: 25px;
+	cursor:pointer;
+	
+}
+
+#questions div h4{
+	margin: 5px 0 10px 0;
+	padding:0px;
+}
+
+
+#images div {
+	position: absolute;	
+	width: 85px;
+	height: 85px;
+	background: transparent url('../images/actD5a.gif') no-repeat -200px top;
+	
+}
+
+
+

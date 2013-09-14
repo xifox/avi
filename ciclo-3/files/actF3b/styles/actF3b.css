@@ -1,0 +1,101 @@
+#section {
+	background-position: -2000px top;
+}
+
+/* #drops div - Cajas de 180x50  */
+#images {
+	width: 1000px; height: 100px;
+	margin: 0 auto;
+}
+
+#images div {
+	background: transparent url(../images/filmF3b.png) no-repeat left top;
+	width: 100px; height: 100px;
+	margin: 30px 13px 0 12px;
+	float: left;
+}
+
+#text {
+	width: 900px; height: 240px;
+	position: absolute;
+	left: 100px; bottom: 100px;
+}
+
+#text div {
+	width: 100%; height: 100px;
+	font: normal normal bold 40pt/1.1em sans-serif;
+	color: #04A;
+}
+
+#elText {
+	width: 800px; height: 80px;
+	position: absolute;
+	left: 100px; bottom: 0;
+	font: normal normal bold 30pt/100px sans-serif;
+	color: #082;
+}
+
+/*** drags text div - Cajas de 120x28 ***/
+#drags {
+	width: 1000px; height: 30px;
+	left: 0; top: 140px;
+}
+
+#drags div {
+	width: 120px; height: 28px;
+	font: normal normal bold 12px/28px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+	margin: 0 5px 0 0;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actF3b-iniDrag {
+	background: transparent url(../../main/images/cajas/120x28.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actF3b-enterDrag {
+	color: #040;
+	background-position: -120px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actF3b-dragDrag {
+	color: #004;
+	background-position: -120px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actF3b-iniDrop {
+	border-bottom: 3px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actF3b-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/*** Fin estilo de cajas 120x28 del objeto text ***/
+
+.txt-visible {
+	float: left;
+	padding-right: 5px;
+	margin: 0 10px;
+}
+
+.txt-hidden {
+	display: block;
+	width:200px;
+	float: left;
+	font-size: 1px;
+}

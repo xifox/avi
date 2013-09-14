@@ -1,0 +1,17 @@
+/*
+	category: mooTools
+	name: each ()
+	toolTip: funcion para iterar sobre los elementos de un array.
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/javascript
+	
+	prompt(array): Nombre del array
+	prompt(elem): Nombre del elemento actual
+	prompt(indice): Nombre del indice actual
+*/
+
+	${array}.each(function(${elem},${indice}) {
+		
+	});

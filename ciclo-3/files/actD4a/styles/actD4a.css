@@ -1,0 +1,64 @@
+#section {
+	background-position: -1200px top;
+}
+
+#desk {
+	width: 758px; height: 374px;
+	margin-left: 121px;	
+	background: transparent url('../images/actD4a.gif') no-repeat left top;
+}
+#drops div{
+	position:absolute;
+	text-align: center;
+	vertical-align: middle;
+	width: 120px; height: 28px
+}
+
+#drags {
+	width: 300px; left: 100px; top: 200px;
+}
+
+#drags div{
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	font: normal normal bold 13pt/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor:move;
+}
+
+/* iniDrag */
+.actD4a-iniDrag {
+	background: transparent url('../../main/images/cajas/150x30.gif') no-repeat left top;	
+}
+
+/* enterDrag */
+.actD4a-enterDrag {
+		background: transparent url('../../main/images/cajas/150x30.gif') no-repeat -150px top;
+}
+
+/* dragDrag */
+.actD4a-dragDrag {
+		background: transparent url('../../main/images/cajas/150x30.gif') no-repeat -300px top;
+}
+
+
+/* iniDrop */
+.actD4a-iniDrop {
+	background: transparent url('../../main/images/cajas/120x28.gif') no-repeat left top;
+	font: normal normal 11pt/28px sans-serif;
+}
+
+/* overDrop */
+.actD4a-overDrop {
+	background-position: -120px top;
+}
+
+/* trueDrop */
+.actD4a-trueDrop {
+	background-position: -360px top;
+	color: #004;
+	font-weight: bold;
+	font-size: 12pt;
+}

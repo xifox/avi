@@ -1,0 +1,107 @@
+#section {
+	background-position: -800px top;
+}
+
+#adjetives div, #comparatives div {
+	position: absolute;
+	width: 100px; height: 40px;
+	text-align: center;
+	font: normal normal bold 20px/40px sans-serif;
+	cursor: pointer;
+}
+
+#texts {
+	width: 950px; height: 220px;
+	position: absolute;
+	left: 50px; bottom: 0;
+}
+
+#texts p {
+	font: normal normal bold 22pt/55px sans-serif;
+	text-align: center;
+	clear: both;
+	height: 55px;
+	text-align: center;
+}
+
+#texts p > span {
+	margin: 5px 5px 0 0;
+	line-height: 45px;
+}
+
+#texts p span span {
+	line-height: 43px;
+}
+
+.actC1b-Ini {
+	background: #EFE;
+	border: 1px solid #DDD;
+	color: #060;
+}
+
+.actC1b-enter {
+	background: #FFB;
+	border: 1px solid #A85;
+	color: #400;
+}
+
+.actC1b-Act {
+	background: #AFA;
+	border: 1px solid #0A4;
+	color: #040;
+}
+
+
+#sword {
+	width: 150px; height: 30px;
+	font: normal normal bold 13pt/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+	}
+
+/* iniDrag */
+.sword-iniDrag {
+	color: #400;	
+	background: transparent url(../../main/images/cajas/150x30.gif) no-repeat -600px top;
+}
+
+/* enterDrag */
+.sword-enterDrag {
+	color: #040;
+	background-position: -150px top;
+}
+
+/* dragDrag */
+.sword-dragDrag {
+	color: #004;
+	background-position: -300px top;
+}
+
+
+/* iniDrop */
+.sword-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #EEE;
+}
+
+/* overDrop */
+.sword-overDrop {
+	border-bottom-color: #0AF;
+	background: #EEF;
+	
+}
+
+.txt-visible {
+	display: block;
+	float: left;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+
+.txt-hidden {
+	display: block;
+	width: 100px;
+	float: left;
+	font-size: 1px;
+}

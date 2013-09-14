@@ -1,0 +1,108 @@
+#daystable table {
+	position: absolute;
+	top: 40px;
+	margin: 0 auto;
+ 	border-spacing: 0;
+  	border-collapse: collapse;
+  	table-layout: fixed;
+}
+
+#daystable table td {
+	width: 160px; height: 35px;
+	font: normal normal normal 22px/25px sans-serif;
+  	border: 1px solid #666;
+	text-align: center;
+}
+
+#daystable table thead td {
+	background: #EEE;
+	border: 0px;
+	color: #888;
+	border-bottom: 3px solid #666;
+}
+
+#daystable table thead, #daystable table tbody {
+	border: 3px solid #666;
+}
+
+#pibe {
+	width: 140px; height: 131px;
+	position: absolute;
+	left: 3px; bottom: 50px;
+	background: transparent url(../images/deskA2a.png) no-repeat left top;
+}
+
+#drops {
+	width: 600px; height: 420px;
+	position: absolute;
+	left: 150px; top: 300px;
+}
+
+#drops div {
+	font: normal normal normal 33px/47px sans-serif;
+	width: 760px; height: 50px;
+	margin: 10px 0 10px;
+}
+
+/*** drags drags div - Cajas de 180x30 ***/
+#drags div {
+	width: 180px; height: 30px;
+	font: normal normal bold 18px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+.txt-visible {
+	display: block;
+	float: left;
+	padding-right: 5px;
+}
+
+.txt-hidden {
+	display: block;
+	width: 100px;
+	float: left;
+	font-size: 1px;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actA2a-iniDrag {
+	background: transparent url(../../main/images/cajas/180x30.png) no-repeat -720px top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actA2a-enterDrag {
+	color: #040;
+	background-position: -180px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actA2a-dragDrag {
+	color: #004;
+	background-position: -180px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actA2a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actA2a-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actA2a-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 180x30 del objeto drags ***/

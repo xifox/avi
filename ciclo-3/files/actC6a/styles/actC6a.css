@@ -1,0 +1,37 @@
+#section {
+	background-position: -800px top;
+}
+
+#arrows {
+	background: transparent url(../images/deskC6a.png) no-repeat left top;
+	position: absolute;
+	width: 245px; height:112px;
+	top: 50px;
+	left: 400px;
+	
+}
+
+
+#swapWords div {
+	font: normal normal bold 20px/40px sans-serif;
+	width:880px; height: 40px;
+	border: 1px solid #FFF;
+	background-color: #FFF;
+	padding: 0 20px;
+}
+
+
+#swapWords div span {
+	font: normal normal bold 20px/40px sans-serif;
+	width: 100px; height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	position: absolute;
+}
+
+
+.drag {
+	background: #EFE;
+	cursor: move;
+}

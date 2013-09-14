@@ -1,0 +1,36 @@
+#section {
+	background-position: -1600px top;
+}
+
+/* Desk */
+#desk {
+	position: absolute;
+	width: 600px; height: 510px;
+	left: 200px; top: 40px;
+	z-index: 0;
+}
+
+#desk div {
+	position: relative;
+	width: 130px; height: 100px;
+	padding-top: 30px;
+	float: left; z-index: 5;
+	background: url(../images/filmE1a.gif) no-repeat -130px top;
+	margin: 0 20px 20px 0;
+	text-align: center;
+	font: normal normal bold 18px/25px sans-serif;
+	white-space: normal;
+	}
+
+#desk div div {
+	padding: 0;
+	width: 130px; height: 130px;
+	position: absolute; z-index: 0;
+	top: 0px; left: 0;
+	color: #024;
+	background: url(../images/filmE1a.gif) no-repeat left top;
+	cursor: pointer;
+	font: normal normal bold 18px/130px sans-serif;
+	}
+
+	

@@ -1,0 +1,75 @@
+#section {
+	background-position: -3600px top;
+}
+
+#vinetas {
+	width: 900px; height: 300px;
+	background: transparent url(../images/deskJ2a.png) no-repeat left top;
+	position: absolute;
+	right: 0; top: 0;	
+}
+
+
+#drops {
+	width: 770px; height: 235px;
+	position: absolute;
+	left: 210px; bottom: 0;
+}
+
+#drops p {
+	font: normal normal bold 20pt/55px sans-serif;
+	height: 55px;
+	margin: 0 0 10px 0;
+}
+
+#drops p span {
+	margin: 5px 0;
+	line-height: 45px;
+	display: block;
+	float: left;
+	white-space: pre;
+}
+
+#drops p span span {
+	float: left;
+	display: block;
+	width: 100px;
+	line-height: 43px;
+}
+
+/* drags div div - Cajas de 180x30  */
+#drags div {
+	width: 180px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+	margin: 0 10px 0 10px;
+}
+
+/* iniDrag */
+.actJ2a-iniDrag {
+	background: transparent url(../../main/images/cajas/180x30.gif) no-repeat left top;
+}
+
+/* enterDrag */
+.actJ2a-enterDrag {
+	background-position: -180px top;
+}
+
+/* dragDrag */
+.actJ2a-dragDrag {
+	background-position: -360px top;
+}
+
+/* iniDrop */
+.actJ2a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F3F3F3;
+}
+
+/* overDrop */
+.actJ2a-overDrop {
+	border-bottom: 2px dashed #08A;
+	background: #AEF;
+}

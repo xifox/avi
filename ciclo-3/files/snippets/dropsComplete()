@@ -1,0 +1,24 @@
+/*
+	category: mooTools
+	name: dropsComplete()
+	toolTip: Script de para activar el boton de check
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/javascript
+	prompt (object): Nombre del objeto de la actividad.
+	prompt (solution): Nombre del array de soluciones
+*/
+${object}.addEvent( 'dropsComplete', function () {
+	$$('#menuBar div')[1].setStyles ({
+		'background-position': '-300px top',
+		'cursor': 'pointer'
+	});
+	$$('#menuBar div')[1].addEvent ('mousedown', function () {
+		${object}.drags.each (function (drag, iD){
+			${object}.drops[drag.indDrop].removeClass (${object}.options.cssClass + '-trueDrop');
+			 if (${solution}[drag.Ind] == drag.indDrop) ${object}.drops[drag.indDrop].addClass ('ok');
+			else ${object}.drops[drag.indDrop].addClass ('error');
+		});
+	});
+});

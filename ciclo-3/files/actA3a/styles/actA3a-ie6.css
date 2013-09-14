@@ -1,0 +1,12 @@
+#claves {
+	background-image: url(../images/filmA3a.gif);
+}
+
+/* iniDrag: Configuracion inicial del drag */
+.actA3a-iniDrag {
+	background-image: url(../../main/images/cajas/180x30.gif);
+}
+
+#img0, #img1, #img2, #img3 {
+	background-image: url(../images/filmA3a.gif);
+}

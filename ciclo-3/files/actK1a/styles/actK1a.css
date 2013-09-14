@@ -1,0 +1,92 @@
+#section {
+	background-position: -4000px top;
+}
+
+#table table {
+	margin: 20px auto;
+	width: 800px; height: 285px;
+	font: normal normal bold 23pt/45px sans-serif;
+	border: 3px solid #aabbcc; 
+	border-collapse: collapse;
+	text-align: center;
+}
+
+ 
+#table table tr td {
+	border: 3px solid #aabbcc;
+		
+}
+
+#sentences {
+	width: 900px; height: 210px;
+	position: absolute;
+	left: 50px; bottom: 0;
+}
+
+#sentences p {
+	width: 100%; height: 70px;
+	font: normal normal bold 25pt/1.2em sans-serif;
+}
+
+
+
+/*** drags drags div - Cajas de 150x30 ***/
+#drags div {
+	font: normal normal bold 19pt/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+.txt-visible {
+	margin-right: 4px;
+	display: block;
+	float: left;
+}
+
+.txt-hidden {
+	display: block;
+	width: 200px;
+}
+
+
+
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actK1a-iniDrag {
+	color: #02A;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actK1a-enterDrag {
+	color: #075;
+	text-decoration: underline;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actK1a-dragDrag {
+	color: #094;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actK1a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actK1a-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actK1a-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 150x30 del objeto drags ***/

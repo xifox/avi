@@ -1,0 +1,83 @@
+/*
+	category: aviPlayer
+	name: css
+	toolTip: Estrucutura CSS de aviPlayer
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/html
+*/
+/* Player - Formato CSS del reproductor aviPlayer */
+/* Player */
+#player {
+	position: absolute;
+	width: 290px; height: 60px;
+	left: 10px; top: 5px;
+	font-weight: bold;
+}
+
+
+#aviPlayer, #aviPlayerUpload {
+	position: relative;
+	left: 0; top: 0;
+	width: 290px; height: 60px;
+	background: transparent url('../../main/images/aviPlayerFnd.png') no-repeat left top;
+}
+
+#aviPlayer {
+	visibility: hidden;
+	}
+
+
+#uploading, #playing {
+	height: 18px;
+	position: absolute;
+	top: 30px;
+}
+
+#uploading {
+	width: 260px;
+	font-size: 10pt;
+	background: #EFF url('../../main/images/loading.jpg') no-repeat 0px center;
+	left: 15px;
+	text-align: center;
+}
+
+#playing {
+	width: 270px; 
+	left: 10px;
+	background: #EFF url('../../main/images/barraPlayer.jpg') repeat-x;
+	border: 1px solid #08B;
+}
+	
+#knob {
+	width: 0; height: 18px;
+	background: #08B;
+	cursor: move;
+	position: absolute;
+}
+
+
+#dspTime {
+	width: 60px; height: 15px;
+	position: absolute;
+	left: 10px; top: 5px;
+	color: #FFF;
+	font-size: 12px;
+	padding-top: 2px;
+	text-align: center;
+	}
+	
+
+#btnsPlayer {
+	position: absolute;
+	right: 10px; top: 5px;
+}
+
+#btnsPlayer div {
+	z-index: 10; float: right;
+	width: 24px; height: 19px;
+	margin: 0 0 0 1px;
+	background: transparent url('../../main/images/aviPlayer.png') no-repeat left top;
+	cursor: pointer;
+}

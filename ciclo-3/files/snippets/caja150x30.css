@@ -1,0 +1,19 @@
+/*
+	category: CSS
+	name: cajas 150x30
+	toolTip: Agrega las clases de css automaticamente.
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/css
+
+	prompt(prefijo): prefijo Dedinido ?
+*/
+
+/* ${prefijo} div - Cajas de 150x30  */
+${prefijo} div {
+ 	width: 150px; height: 30px;
+	font: normal normal bold 22px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}

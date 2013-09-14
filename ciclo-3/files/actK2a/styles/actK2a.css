@@ -1,0 +1,55 @@
+#section {
+	background-position: -4000px top;
+}
+
+#Texts {
+	font: normal normal normal 20px/1.8em sans-serif;	
+	width: 300px;
+	margin: 0px auto;
+}
+
+#image {
+	width: 1000px; height: 400px;
+	left: 0; bottom: 0;
+	background: transparent url(../images/filmfound.png) no-repeat left top;
+	position: absolute;
+	z-index: 50;
+}
+
+#image div{
+	background: transparent url(../images/filmK2a1.png) no-repeat 1000px top;
+	width: 1000px; height: 400px;
+	position: absolute;
+}
+
+	
+#drags {
+	width: 154px; height: 86px;
+	margin-top: 20px;
+	background: transparent url(../images/footprints.png) no-repeat left top;
+	cursor: move;
+}	
+	
+#yeti {
+	width: 150px; height: 169px;
+	background: transparent url(../images/yeti.png) no-repeat right top;
+	position: absolute;
+	left: 531px; top: 315px;
+	z-index: 5000;
+	display: none;
+}	
+
+#arbusto {
+	width: 198px; height: 126px;
+	background: transparent url(../images/arbusto.png) no-repeat right top;
+	z-index: 10000;
+	left: 550px; top: 410px;
+	position: absolute;
+}
+
+#drops div {
+	width: 280px;
+	height: 120px;
+	position: absolute;
+	z-index: 200;
+}

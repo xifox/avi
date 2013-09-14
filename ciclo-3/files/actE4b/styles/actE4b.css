@@ -1,0 +1,92 @@
+#section {
+	background-position: -1600px top;
+}
+
+#pictures {
+	width: 150px; height: 420px;
+	position: absolute;
+	left: 50px; top: 20px;
+}
+
+#pictures div {
+	width: 150px; height: 105px;
+	margin: 15px 0 0 0;
+	background: #F5FFFA url(../images/filmE4b.gif) no-repeat 150px top;
+	border: 1px solid #aaa;
+}
+
+#drops {
+	width: 600px; height: 420px;
+	position: absolute;
+	left: 230px; top: 50px;
+}
+
+#drops div {
+	font: normal normal normal 36px/38px sans-serif;
+	width: 760px; height: 45px;
+	margin: 15px 0 70px;
+}
+
+/*** drags drags div - Cajas de 150x30 ***/
+#drags div {
+	width: 150px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actE4b-iniDrag {
+	background: transparent url(../../main/images/cajas/150x30.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actE4b-enterDrag {
+	color: #040;
+	background-position: -150px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actE4b-dragDrag {
+	color: #004;
+	background-position: -150px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actE4b-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actE4b-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actE4b-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 150x30 del objeto drags ***/
+
+
+.txt-visible {
+	float: left;
+	padding-right: 5px;
+}
+
+.txt-hidden {
+	display: block;
+	width: 300px;
+	float: left;
+	font-size: 1px;
+}
+

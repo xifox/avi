@@ -1,0 +1,22 @@
+#section {
+	background-position: -2800px top;
+}
+
+#text {
+	font: normal normal bold 35pt/80px sans-serif;
+	width: 800px; height: 80px;
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+
+#box {
+	background: transparent url(../../main/images/cajas/caja800x130.png) no-repeat left;
+	width: 800px; height: 130px;
+	position: absolute;
+	top: 230px;
+	left: 100px;
+
+	
+}

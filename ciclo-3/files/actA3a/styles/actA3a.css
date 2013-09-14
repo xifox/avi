@@ -1,0 +1,96 @@
+#images {
+	width: 230px; height: 480px;
+	position: absolute;
+	left: 50px;
+	top: 5px;
+}
+
+#images div {
+	width: 230px; height: 120px;
+	background: transparent url(../images/filmA3a02.png) no-repeat left top;
+	margin: 0 0 12px 0;
+}
+
+
+#oraciones {
+	width: 650px; height: 440px;
+	position: absolute;
+	left: 350px ; top: 30px;
+}
+
+#oraciones p {
+	font: normal normal normal 28pt/1.2em sans-serif; 
+	width: 100%; height: 100px;
+	margin-top: 15px;
+}
+
+/*** txtDrags div - Cajas de 180x30 ***/
+#txtDrags div {
+	font: normal normal bold 18px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actA3a-iniDrag {
+	width: 180px; height: 30px;
+	background: transparent url(../../main/images/cajas/180x30.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actA3a-enterDrag {
+	color: #040;
+	background-position: -180px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actA3a-dragDrag {
+	color: #004;
+	background-position: -180px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actA3a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actA3a-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actA3a-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 180x30 del objeto drags ***/
+
+/* Drags de imagenes */
+
+#img0, #img1, #img2, #img3 {
+	width: 60px; height: 180px;
+	background: transparent url(../images/filmA3a01.png) no-repeat left top;
+	cursor: move;
+}
+
+.txt-visible {
+	display: block;
+	float: left;
+	padding-right: 5px;
+}
+
+.txt-hidden {
+	display: block;
+	width: 100px;
+	float: left;
+	font-size: 1px;
+}

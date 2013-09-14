@@ -1,0 +1,13 @@
+#calendar {
+	background-image: url(../images/deskI3a-2.gif);
+}
+
+/* iniDrag */
+.actI3a-iniDrag {
+ 	background-image: url(../../main/images/cajas/150x50.gif);
+}
+
+/* iniDrop */
+.actI3a-iniDrop {
+	background-image: url(../images/filmI3a.gif);
+}

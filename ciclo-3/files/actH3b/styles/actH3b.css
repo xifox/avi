@@ -1,0 +1,69 @@
+#section {
+	background-position: -2800px top;
+}
+
+#images  {
+	background: transparent url(../images/deskH3b.png) no-repeat left top;
+	width: 155px; height: 350px;
+	position: absolute;
+	left: 50px;
+}
+
+#drops {
+	font: normal normal bold 25pt/200px sans-serif;
+	width: 795px; height: 350px;
+	position: absolute;
+	left: 230px;
+}
+
+#drops p {
+	width: 100%; height: 45px;
+	padding: 75px 0 55px 0;
+	font: normal normal bold 28pt/1em sans-serif;
+}
+
+/* #drags div - Cajas de 180x30  */
+#drags div {
+ 	background: transparent url(../../main/images/cajas/180x30.gif) no-repeat left top;
+	width: 180px; height: 30px;
+	font: normal normal bold 14pt/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* iniDrag */
+.actH3b-iniDrag {
+	color: #400;	
+	background: #FEE;
+}
+
+/* enterDrag */
+.actH3b-enterDrag {
+	color: #040;
+	background-position: -180px top;
+}
+
+/* dragDrag */
+.actH3b-dragDrag {
+	color: #004;
+	background-position: -360px top;
+}
+
+
+/* iniDrop */
+.actH3b-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #EEE;
+}
+
+/* overDrop */
+.actH3b-overDrop {
+	border-bottom-color: #0AF;
+	background: #EEF;
+}
+
+/* trueDrop */
+.actH3b-trueDrop {
+	
+}

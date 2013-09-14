@@ -1,0 +1,21 @@
+#section {
+	background-position: -1200px top;
+}
+
+#desk, #desk2 {
+	width: 650px;
+	height: 299px; background: transparent url('../images/actD2a.gif') no-repeat left top;
+	position: absolute;
+	left: 175px; top: 0px;
+}
+
+desk {z-index: 10;}
+desk2 {z-index: 100;}
+
+#dado {
+	width: 150px; height: 150px;
+	background: transparent url('../images/filmD2a.png') no-repeat -900px top;
+	position: absolute;
+	right: 100px; bottom: 100px;
+	cursor: pointer;
+}

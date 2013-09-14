@@ -1,0 +1,67 @@
+/*
+	category: DxD.Text
+	name: estilo Css
+	toolTip: estilos de cajas y clases de la actividad
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/css
+	
+	prompt(objeto): prefijo Dedinido ?
+	prompt(cssclass): Clase CSS ?
+	prompt(width): Ancho de la caja ?
+	prompt(height): Alto de caja ?
+	prompt(font-size): Tamaño de texto ?
+	prompt(line-height): Tamaño de texto ?
+	
+*/
+
+/*** drags ${objeto} div - Cajas de ${width}x${height} ***/
+#${objeto} div {
+	width: ${width}px; height: ${height}px;
+	font: normal normal bold ${font-size}px/${line-height}px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.${cssclass}-iniDrag {
+	background: transparent url(../../main/images/cajas/${width}x${height}.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.${cssclass}-enterDrag {
+	color: #040;
+	background-position: -${width}px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.${cssclass}-dragDrag {
+	color: #004;
+	background-position: -${width}px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.${cssclass}-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.${cssclass}-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.${cssclass}-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas ${width}x${height} del objeto ${objeto} ***/

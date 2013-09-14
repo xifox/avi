@@ -1,0 +1,32 @@
+#section {
+	background-position: -2400px top;
+}
+
+
+#pictures div {
+	width: 230px; height: 100px;
+	margin: 0 10px 30px;
+	float: left;
+	background: transparent url(../images/filmG5a.png) no-repeat left top;
+}
+	
+div#picture04 {
+	margin: 0 10px 0 125px;
+	
+}
+#karaoke {
+	position: absolute;
+	left:0; bottom: 0;
+	width: 100%;
+	font: normal normal bolder 30px/35px sans-serif;
+	text-align: center;
+}
+
+#karaoke span {
+	padding: 0 5px;
+}
+
+#karaoke p {
+	width: 100%;
+	height: 35px;
+}

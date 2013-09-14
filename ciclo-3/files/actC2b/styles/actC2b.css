@@ -1,0 +1,51 @@
+#section {
+	background-position: -800px top;
+}
+
+#bloques1, #bloques2 {
+	clear: both;
+	font-size: 25px;
+	font-weight: bold;
+	height: 5.5em;
+	width: 600px;
+	margin: 0 auto;
+	color: #36A;
+}
+
+#bloques1 div, #bloques2 div {
+	float: left;
+	margin: 2em 0.2em;
+}
+
+#bloques1 span, #bloques2 span {
+	background: transparent url(../images/filmC2b.png) no-repeat left top;
+	display: block;
+	width: 5em; height: 5em;
+	float: left;
+}
+
+
+#frases {
+	width: 900px; height: 50px;
+	font: normal normal normal 32px/1.5em sans-serif;
+	margin: 0 0 70px 50px;
+}
+
+#frases div span  {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5FF;
+}
+
+#frases div span span {
+	visibility: hidden;
+}
+
+/* swords div - Cajas de 150x30  */
+#swords div {
+	width: 150px; height: 30px;
+	font: normal normal bold 12pt/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+

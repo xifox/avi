@@ -1,0 +1,36 @@
+#section {
+	background-position: -1200px top;
+}
+
+#quest {
+	font: normal normal bold 23pt/50px sans-serif;
+	width: 500px;
+	position: absolute;
+	top: 170px;
+	left: 290px;
+}
+#quest span{
+	float: left;
+	
+}
+#ans {
+	width: 500px;
+	position: absolute;
+	top: 250px;
+	left: 230px;
+	font: normal normal bold 23pt/50px sans-serif;
+}
+#ans div {
+	width: 500px;
+	height: 50px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #757575;
+	float: left;
+}
+
+#flags div{
+	width:156px;
+	height: 97px;
+	background: transparent url('../images/actD6c.gif') no-repeat left top;
+	position:absolute;
+}

@@ -1,0 +1,70 @@
+#section {
+	background-position: -3600px top;
+}
+
+#vinetas {
+	width: 900px; height: 300px;
+	background: transparent url(../images/deskJ2c.png) no-repeat left top;
+	float: right;	
+}
+
+#drops {
+	width: 700px; height: 235px;
+	position: absolute;
+	left: 330px; top: 290px;
+}
+
+p {
+	width: 670px; height: 50px;
+	font: normal normal bold 15px/26px sans-serif;
+	margin: 10px 0 10px;
+	white-space: normal;
+}
+
+.txt-visible {
+	margin-right: 4px;
+	display: block;
+	float: left;
+}
+
+.txt-hidden {
+	display: block;
+	width: 35px;
+}
+
+
+/* #drags div - Cajas de 150x30  */
+#drags div {
+	width: 150px; height: 30px;
+	font: normal normal bold 13pt/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* iniDrag */
+.actJ2c-iniDrag {
+	background: transparent url(../../main/images/cajas/150x30.gif) no-repeat left top;
+}
+
+/* enterDrag */
+.actJ2c-enterDrag {
+	background-position: -150px top;
+}
+
+/* dragDrag */
+.actJ2c-dragDrag {
+	background-position: -300px top;
+}
+
+/* iniDrop */
+.actJ2c-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F3F3F3;
+}
+
+/* overDrop */
+.actJ2c-overDrop {
+	border-bottom: 2px dashed #08A;
+	background: #AEF;
+}

@@ -1,0 +1,12 @@
+#images div {
+	margin: 0 19px 0 5px;
+}
+
+/* iniDrag: Configuracion inicial del drag */
+.actF3c-iniDrag {
+	background-image: url(../../main/images/cajas/120x28.gif);
+}
+
+#text {
+	bottom: 150px;
+}

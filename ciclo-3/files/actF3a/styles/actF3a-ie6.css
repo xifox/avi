@@ -1,0 +1,12 @@
+#images div {
+	background-image: url(../images/filmf3a.gif);
+	margin: 20px 8px 0 12px;
+}
+
+.actF3a-iniDrag {
+	background-image: url(../../main/images/cajas/120x28.gif);
+}
+
+#text {
+	bottom: 50px;
+}

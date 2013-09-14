@@ -1,0 +1,19 @@
+#section {
+	background-position: -800px top;
+}
+
+#frases {
+	width: 900px;
+	height: 535px;
+	margin: 0 0 0 50px;
+}
+
+#frases div {
+	width: 100%; height: 105px;
+	font: normal normal normal 20pt/105px sans-serif;
+}
+
+#frases div span {
+	color: white;
+	border-bottom: 3px dashed #6a93c7;
+}

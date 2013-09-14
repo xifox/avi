@@ -1,0 +1,104 @@
+#pictures {
+	width: 150px; height: 420px;
+	position: absolute;
+	left: 0; top: 0
+}
+
+#pictures div {
+	width: 150px; height: 105px;
+	background: transparent url(../images/filmA4a.png) no-repeat left top;
+}
+
+#drops {
+	width: 600px; height: 525px;
+	position: absolute;
+	left: 170px; top: 0;
+}
+
+#drops p {
+	font: normal normal bold 19pt/45px sans-serif;
+	width: 760px; height: 50px;
+	margin: 5px 0 5px;
+	padding: 2px 5px;
+}
+
+
+#pictures1 {
+	width: 150px; height: 339px;
+	background: transparent url(../images/desk01.png) no-repeat left top;
+	position: absolute;
+	left: 0; bottom: 50px;
+}
+
+#pictures2 {
+	width: 300px; height: 318px;
+	background: transparent url(../images/desk02.png) no-repeat left top;
+	position: absolute;
+	right: 0px; top: 0px;
+}
+
+
+/*** drags drags div - Cajas de 180x30 ***/
+#drags div {
+	width: 180px; height: 30px;
+	font: normal normal bold 18px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actA1a-iniDrag {
+	background: transparent url(../../main/images/cajas/180x30.png) no-repeat -720px top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actA1a-enterDrag {
+	color: #040;
+	background-position: -180px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actA1a-dragDrag {
+	color: #004;
+	background-position: -360px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actA1a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actA1a-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actA1a-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 180x30 del objeto drags ***/
+
+
+.txt-visible {
+	display: block;
+	float: left;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+
+.txt-hidden {
+	display: block;
+	width: 100px;
+	float: left;
+	font-size: 1px;
+}

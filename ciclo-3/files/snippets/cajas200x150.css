@@ -1,0 +1,21 @@
+/*
+	category: CSS
+	name: cajas 200x150
+	toolTip: Agrega las clases de css automaticamente.
+	
+	toolbar: true
+	icon: com.aptana.ide.snippets/icons/comment_block.png
+	language: text/css
+	
+	prompt(prefijo): prefijo Dedinido ?
+*/
+
+/* ${prefijo} div - Cajas de 200x150  */
+${prefijo} div {
+ 	background: transparent url(../../main/images/caja200x150.gif) no-repeat left top;
+	width: 180px; height: 130px; padding: 10px;
+	white-space: normal;
+	font: normal normal normal 20px/22px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}

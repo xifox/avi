@@ -1,0 +1,35 @@
+#section {background-position: -400px top;}
+#drops {
+	width: 1000px; height: 500px;
+	left: 0; top: 0;
+	position: absolute;
+	
+	}
+
+#drops div {
+	width: 450px; height: 180px;
+	background: transparent url(../images/fndDropsB3a.png) no-repeat left top;
+	position: absolute;
+}
+
+#drops div span {
+	width: 180px; height: 120px;
+	display: block;
+	background: transparent url(../images/filmB3a.png) no-repeat 180px top;
+	margin: 20px 0 0 30px;
+	float: left;
+}
+
+
+#drags div {
+	width: 180px; height: 120px;
+	background: transparent url(../images/filmB3a.png) no-repeat left top;
+	cursor: move;
+}
+
+#text {
+	float: right;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: right;
+}

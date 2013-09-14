@@ -1,0 +1,9 @@
+#menu-section div {
+	width: 220px;
+	margin: 0 18px 4px;
+}
+
+#ciclo {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='main/images/ciclo.png', sizingMethod='scale');}
+}

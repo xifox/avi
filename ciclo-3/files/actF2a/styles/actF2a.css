@@ -1,0 +1,30 @@
+#section {
+	background-position: -2000px top;
+}
+#desk {
+	position: absolute;
+	width: 650px; height: 535px;
+	left: 187px; top: 30px;
+	z-index: 0;
+}
+
+#desk div {
+	position: relative;
+	width: 150px; height: 150px;
+	float: left; z-index: 5;
+	background: url(../images/filmF2a.png) no-repeat -900px top;
+	margin: 0 10px 5px 0;
+	text-align: center;
+	font: normal normal bold 25px/150px sans-serif;
+}
+
+#desk div div {
+	position: absolute;
+	z-index: 0;
+	left: 0px; top: 0px; 
+	width: 150px; height: 150px;
+	font: normal normal bold 24pt/150px sans-serif;
+	color: #042;
+	background: url(../images/filmF2a.png) no-repeat -1050px top;
+	cursor: pointer;
+	}

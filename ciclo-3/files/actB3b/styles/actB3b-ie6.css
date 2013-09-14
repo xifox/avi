@@ -1,0 +1,13 @@
+#drops div {
+	background-image:url(../images/fndDropsB3b.gif);
+}
+
+#drops div span {
+	background-image: url(../images/filmB3b.gif);
+	margin: 20px 0 0 10px;
+}
+
+
+#drags div {
+	background-image: url(../images/filmB3b.gif);
+}
