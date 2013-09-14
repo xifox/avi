@@ -1,0 +1,50 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_h.gif);}
+#act-caption {background-image: url(../../main/images/cap_h.gif);}
+
+#drops {
+	position: absolute;
+	z-index: 0;
+	width: 200px; 	height:400px;
+	left: 700px; top: 40px; 
+	background: transparent url(none) no-repeat left top;
+}
+
+#drops div {
+	position: relative;
+	font-size: 20pt;
+	color: #339;
+	margin-bottom: 5px;
+}
+
+/***************
+*     DRAGS    *
+****************/
+#drags div {
+	background-position: -180px -40px;
+	position: absolute;
+	cursor: pointer;
+	font-size: 20pt;
+	color: #339;
+}
+
+
+/**********
+*  DESK *
+********/
+
+#desk {
+	position: relative;
+	left: 5px;
+	top: 0px;
+	width:5050px;
+	height:400px;
+	background: transparent url(../images/act5h.gif) no-repeat left top;
+}
+#word {
+	position: absolute;
+	left: 500px; top: 50px;
+	width: 200px;	height: 50px;
+	font: normal normal bold 20pt/50px sans-serif;
+	text-align: center;
+}

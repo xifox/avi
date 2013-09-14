@@ -1,0 +1,78 @@
+#header {
+	background-image: url(../../main/images/cene_H.png);
+}
+
+#section {
+	background-position: -2310px top;
+}
+
+#sentences {
+	left: 200px; top: 0;
+	width: 600px; height: 400px;
+	position: absolute;
+}
+
+#sentences div {
+	width: 600px; height: 400px;
+}
+
+#sentences p {
+	font: normal normal bold 30px/50px sans-serif;
+	height: 50px;
+	color: #040;
+}
+
+#sentences span span {
+	line-height: 38px;
+}
+
+/*** drags forDrag div - Cajas de 150x30 ***/
+#forDrag div {
+	width: 150px; height: 30px;
+	font: normal normal bold 18px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actH4a-iniDrag {
+	background: transparent url(../../main/images/cajas/150x30.png) no-repeat -750px top;
+		
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actH4a-enterDrag {
+	color: #040;
+	background-position: -150px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actH4a-dragDrag {
+	color: #004;
+	background-position: -150px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actH4a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actH4a-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actH4a-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 150x30 del objeto forDrag ***/
+

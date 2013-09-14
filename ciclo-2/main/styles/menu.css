@@ -1,0 +1,73 @@
+body {
+	font-family: sans-serif;
+	overflow:hidden;
+	padding: 0; margin: 0;
+	background-color: #fff;
+	color: black;
+}
+
+#main {
+	height: 720px;
+}
+
+#header {
+	width: 100%; height: 100px;
+	background: url(../images/cene_A.png) repeat-x left top;
+}
+
+#content {
+	width: 1000px; height: 620px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#actCaption {
+	position: absolute;
+	width: 330px; height: 100px;
+	background: transparent url(../images/caps.png) no-repeat 0px top;
+	z-index: 10;
+	right: 10%; top: 10px;
+}
+
+
+#menu-activities {
+	position: absolute;
+	top: 100px;
+}
+
+#menu-activities table {
+	margin: 0 auto;
+}
+
+#menu-activities table tr td {
+	height: 25pt;
+	font: normal normal normal 12pt/15pt sans-serif;
+	cursor: pointer;
+	padding: 0 6px;
+	white-space: normal;
+}
+
+
+#mainMenu a {
+	position: absolute;
+	left: 410px; top: 500px;
+	width: 180px; height: 40px;
+	display: block;
+	background: transparent url(../images/btnMainMenu.png) no-repeat left top;	
+}
+
+#mainMenu a:hover {
+	background-position: -180px top;	
+}
+
+.filaCebra0 {
+	background-color: #def;
+}
+
+.filaCebra1 {
+	background-color: #dfd;
+}
+
+.clr01 {
+	color: #555;
+}

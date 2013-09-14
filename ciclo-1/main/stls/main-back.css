@@ -1,0 +1,286 @@
+body {
+	margin: 0; padding: 0;
+	background-color: white;
+}
+
+#main {
+	width: 100%; height: 695px;
+	left: 0; top: 0;
+/*	position: relative; */
+}
+
+#header, #content, #footer {
+	position: relative;
+}
+
+#header {
+	background: url(../images/cene_a.gif) repeat-x top;
+	width:100%;
+	height:90px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+#content, #bloqueo {
+	width: 1000px;
+	height: 535px;
+	margin: 0 auto;
+	padding: 0;
+	font: normal normal normal 36pt/36pt sans-serif;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+#bloqueo {
+	position: absolute;
+	left: 0; top: 0;
+	display: none;
+	z-index: 1000;
+	}
+
+#footer {
+	width: 100%; height: 60px;
+}
+
+#header {
+	background: url(../images/mark.gif) repeat-x top;
+	width:100%;
+	height:90px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+
+#ex-caption {
+	position: absolute;
+	width: 400px; height: 30px;
+	left: 6%; top: 70px;
+	font: normal normal bold 18pt/22pt sans-serif, time new roman
+}
+
+#act-caption {
+	position: absolute;
+	width: 330px; height: 100px;
+	right: 4%; top: 10px;
+	background: transparent url(../images/cap_a.gif) no-repeat center top;
+}
+
+#player {
+	margin: 0 0 0 5%;
+	width: 300px; height: 60px;
+}
+
+
+#aviPlayer, #aviPlayerUpload {
+	position: relative;
+	width: 290px; height: 60px;
+	background: transparent url('../images/bgplayer.gif');
+	border: 1px solid #126;
+}
+
+#aviPlayer {
+	/*display: none;*/
+	visibility: hidden;
+	}
+
+
+
+#uploading, #playing {
+	height: 18px;
+	border: 1px solid #888;
+	position: absolute;
+	top: 30px;
+}
+
+#uploading {
+	width: 260px;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: bold;		
+	background: #EFF url('../images/loading.jpg') no-repeat 0px center;
+	left: 15px;
+}
+
+#playing {
+	width: 270px; 
+	left: 10px;
+	background: #EFF url('../images/barraPlayer.jpg') repeat-x;
+	border: 1px solid #026;
+	}
+	
+
+#knob {
+	width: 10px; height: 18px;
+	left: 500px;
+	background: #024;
+	cursor: pointer;
+	}
+
+
+#dspTime {
+	float: left;
+	margin: 5px 0 2px 10px;
+	
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+
+	background: #EFE;
+	border: 1px solid #000;
+	padding-top: 2px;
+	width: 60px; height: 15px;
+	}
+	
+
+#btn_play, #btn_rewind, #btn_stop, #btn_pause {
+	z-index: 10; float: right;
+	width: 24px; height: 19px;
+	margin: 5px 5px 0 0;
+	background: transparent url('../images/btn_stop.jpg') no-repeat;
+	cursor: pointer;
+}
+
+#btn_pause {
+	background-image: url('../images/btn_pause.jpg');
+}
+
+#btn_play {
+	background-image: url('../images/btn_play.jpg');
+}
+
+#btn_rewind {
+	background-image: url('../images/btn_rewind.jpg');
+}
+
+#btnCR {
+	width: 130px; height: 60px;
+	background: url(../images/logoy60.jpg) no-repeat;
+	position: absolute;
+	z-index: 0;
+}
+
+#vtn01 {
+	background: url(../images/vtn_p1.png) no-repeat center top;
+	width: 400px; height: 6px;
+	position: absolute;
+	top: -20px;
+	left: 20px;
+	cursor: pointer;
+	display: none;
+	z-index: 10;
+	font-size: 10pt;
+	margin: 0;
+	padding: 6px 0 0 0;
+}
+
+#vtn01 ul {
+	background: url(../images/vtn_p3.png) no-repeat center bottom;
+	width: 100%;
+	margin: 0; padding: 0 0 6px 0;
+	cursor: pointer;
+	left: -20px;
+}
+
+#vtn01 li {
+	background: url(../images/vtn_p2.png) repeat-y;
+	width: 380px;
+	padding: 2px 10px;
+	list-style-position: inside;
+	font-family: sans-serif;
+	color: #000;
+}
+
+.sound, .sounds div {
+	position: absolute;
+	z-index: 100; 
+	width: 40px; height: 40px;
+	background: transparent url(../images/snd02.gif) no-repeat left top;
+	cursor: pointer;
+	vertical-align: middle;
+}
+ 
+.caja25x30x240x0, .cajas25x30x240x0 div, .caja40x40x0x0, .cajas40x40x0x0 div, .caja50x50x0x90, .cajas50x50x0x90 div, .caja180x50x0x40, .cajas180x50x0x40 div,.caja230x50x0x140, .cajas230x50x0x140 div, .caja180x30x0x190, .cajas180x30x0x190 div, .caja150x150x0x220, .cajas150x150x0x220 div {
+	width: 40px; height: 40px;
+ 	background: transparent url(../images/cajas.png) no-repeat left top;
+	font: normal normal bold 30px/35px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	
+	}
+.caja230x50x0x140, .cajas230x50x0x140 div {
+	background-position: 0px -140px;
+	font: normal normal bold 36px/50px sans-serif;
+	width: 230px; height: 50px;
+}
+	
+.caja25x30x240x0, .cajas25x30x240x0 div {
+	width: 25px; height: 30px;
+	background-position: -240px 0px;
+	font: normal normal bold 16px/30px sans-serif;
+
+}
+
+.caja40x40x0x0, .cajas40x40x0x0 div {
+	background-position: 0px 0px;
+}
+
+.caja50x50x0x90, .cajas50x50x0x90 div {
+	background-position: 0px 90px;
+	width: 50px; height: 50px;
+	font: normal normal bold 40px/50px sans-serif;
+
+}
+
+.caja180x50x0x40, .cajas180x50x0x40 div {
+	background-position: 0px -40px;
+	font: normal normal bold 36px/50px sans-serif;
+	width: 180px; height: 50px;
+}
+
+
+
+.caja180x30x0x190, .cajas180x30x0x190 div {
+	background-position: 0px -190px;
+	font: normal normal bold 15px/30px sans-serif;
+	width: 180px; height: 30px;
+}
+
+.caja150x150x0x220, .cajas150x150x0x220 div {
+	background-position: 0px -220px;
+	width: 150px; height: 150px;
+	font: normal normal bold 25px/150px sans-serif;
+}
+
+#browserNe a, #browserBa a, #browserMe a {
+	width: 85px; height: 21px;
+	background: #e1e2e2 url(../../main/images/flechas2.gif) no-repeat 0px top;
+	float: right;
+	padding: 0 0 0 35px;
+	display: block;
+	margin: 1px;
+	font: normal normal bold 12pt/14pt sans-serif;
+	text-decoration: none;
+}
+
+#browserNe a {
+	background-position: -240px;
+}
+
+
+#browserMe a {
+	background-position: -480px;
+}
+
+#browserMe a:hover {
+	color: red;
+}
+
+
+#browserNe a:hover {
+	background-position: -360px;
+	color: red;
+}
+
+#browserBa a:hover {
+	background-position: -120px;
+	color: red;
+}

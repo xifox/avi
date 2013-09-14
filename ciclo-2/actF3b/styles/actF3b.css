@@ -1,0 +1,41 @@
+#header {
+	background-image: url(../../main/images/cene_F.png);
+}
+
+#section {
+	background-position: -1650px top;
+}
+
+#images div{
+	width: 150px;
+	height: 210px;
+	background-image: url(../images/filmF3b.gif);
+	margin: 0px 100px;
+}
+#bigTroll{
+	float: left;
+}
+#smallTroll{
+	float: right;
+
+}
+
+
+#phrases div, #phrases div p{
+
+	float: left;
+
+	white-space:normal;
+	width: 350px;
+
+	
+}
+#phrases div {
+	margin: 20px;
+
+	position:absolute;
+}
+ #phrases div p {
+ 	position: relative;
+	font: normal normal normal 20pt/25pt sans-serif;
+ }

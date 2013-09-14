@@ -1,0 +1,110 @@
+#header {
+	text-align: right;
+	background-image: url(../../main/images/cene_menu.png);
+}
+
+#btnCR {
+	right: 0;
+}
+
+#main {height: 600px;}
+
+#content {
+	height: 480px;
+}
+
+#cabecera {
+	width: 1000px; height: 100px;
+	margin: 0 auto;
+	background: transparent url(../../main/images/0_tit1.png) no-repeat center top;
+}
+
+#menu0 {
+	position: absolute;
+	width: 320px; height: 400px;
+	left: 20px;
+	text-align: center;
+}
+
+#menu0 div {
+	position: absolute;
+	line-height: 60px;
+	z-index: 100;
+}
+
+#menu0 div a {
+	display: block;
+	width: 320px; height: 65px;
+	background: transparent url(../../main/images/menu-caja.gif) no-repeat left top;
+	text-decoration: none;
+	color: #246;
+	cursor: pointer;
+}
+
+#menu0 div a:hover {
+	background-position: -320px top;
+	color: #254;
+}
+
+#menuOPC {
+	display: none;
+}
+
+#menuOPC div {
+	left: 40px; top: 0; 
+	position: absolute;
+	background: transparent url(../../main/images/menu-opc.png) no-repeat -3080px top;
+}
+
+#menuOPC div a {
+	text-align: center;
+	font-size: 18pt;
+	line-height: 40px;
+	display: block;
+	width: 280px; height: 42px;
+	text-decoration: none;
+	color: #FFF;
+	}
+
+#menuOPC a:hover {
+	background: transparent url(../../main/images/menu-opc.png) no-repeat -3080px top;
+	color: #025;
+	}
+
+
+#actvs div {
+	display: none;
+	position: absolute;
+	width: 330px !important;
+	height: 480px;
+	left: 360px; top: 0;
+	background: transparent url(../../main/images/caps2.gif) no-repeat 0px 95%;
+
+}
+
+#actvs div span {
+	display: block;
+	width: 630px;
+	font: normal normal bold 18pt/25pt sans-serif;
+	cursor: pointer;
+	z-index: 10000;
+	border: 1px solid #AAA;
+	padding: 0 0 0 5px;
+	margin: 1px 0;
+	background: #EEE;
+}
+
+#btnBack {
+	display: none;
+	z-index: 10000;
+	position: absolute;
+	left: 380px; top: 480px;
+	font-size: 20pt;
+	line-height: 25pt;
+	cursor: pointer;
+}
+
+#icnBack {
+	width: 28px; height: 21px;
+	background: transparent url(../../main/images/flechas.gif) no-repeat 0px top;
+}

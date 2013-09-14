@@ -1,0 +1,58 @@
+#header {
+	background-image: url(../../main/images/cene_M.png);
+}
+
+#section {
+	background-position: -3960px top;
+}
+
+#images div {
+	width: 200px; height: 300px;
+	margin: 30px 25px;
+	float: left;
+	background: transparent url('../images/filmM3a.gif') no-repeat left top;
+	position: relative;
+}
+
+#images div span {
+	width: 180px;
+	padding: 10px;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	font-size: 18px; line-height: 22px;
+	white-space: normal;
+}
+
+/* #textsDrag div - Cajas de 200x150  */
+#textsDrag div {
+	width: 180px; height: 130px;
+	padding: 10px;
+	white-space: normal;
+	font: normal normal normal 20px/22px sans-serif;
+	text-align: center;
+	cursor:move;
+}
+
+/* iniDrag */
+.actM3a-iniDrag {
+	background: transparent url(../../main/images/caja200x150.gif) no-repeat left top;
+	color: #020;
+}
+
+/* enterDrag */
+.actM3a-enterDrag {
+	background-position: -200px 0;
+	color: #004;
+}
+
+/* dragDrag */
+.actM3a-dragDrag {
+	background-position: -400px 0;
+	color: #024;
+}
+
+/* trueDrop */
+.actM3a-trueDrop {
+	color: #015;
+}

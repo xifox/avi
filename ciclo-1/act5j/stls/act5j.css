@@ -1,0 +1,37 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_j.gif);}
+#act-caption {background-image: url(../../main/images/cap_j.gif);}
+
+/* Desk */
+#desk {
+	position: absolute;
+	top: 0px; 	left: 170px;
+    width: 660px; height:336px;
+    background: transparent url(../images/act5j.png) no-repeat left top;
+    z-index: 10;
+}
+
+
+#drags div{
+	width: 150px; height:150px;
+	position: absolute;
+	background: transparent url(../images/film5j.gif) no-repeat left top;
+	z-index: 20;
+	cursor: pointer;
+}
+#drops div {
+	width: 150px; 	height: 150px;
+	z-index: 25;
+	position: absolute;
+	background: transparent url(../images/film5j.gif) no-repeat -900px top;
+}
+
+
+#txtDrops div {
+	font-size: 30px;
+	width: 150px; 	height: 50px;
+	position: absolute;
+	top:320px; left: 170px;
+	background: transparent url(none) no-repeat left top;
+	
+}

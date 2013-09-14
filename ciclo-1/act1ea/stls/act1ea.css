@@ -1,0 +1,41 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_e.gif);}
+#act-caption {background-image: url(../../main/images/cap_e.gif);}
+
+
+#drops {
+	position: absolute;
+	z-index: 0;
+	width: 1000px; 	height:355px;
+	top: 30px; left: 0;
+	background: transparent url(../images/cuadro0.jpg) no-repeat left top;
+}
+
+#sounds div {
+	width: 400px; height: 355px; float: left;
+	margin-right:100px;
+	}
+
+
+
+/***************
+*     DRAGS    *
+****************/
+#drags div, #drops div {
+	position: absolute;
+	cursor: pointer;
+	height: 70px;
+	padding-top: 10px;
+	font: normal normal bold 12pt/14pt sans-serif;
+	text-align: center;
+}
+
+#drags div {
+	background: transparent url('../images/acte1-bocadillos.gif') no-repeat -229px top;
+}
+
+#drops div {
+	color: blue;
+	background: transparent url('../images/acte1-bocadillos.gif') no-repeat 1000px top;
+
+}

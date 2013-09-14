@@ -1,0 +1,44 @@
+#header {
+	background-image: url(../../main/images/cene_A.png);
+}
+
+#desk {
+	background: transparent url(../images/desk.png) no-repeat center center;
+	position: absolute;
+	left:106px; top: 30px; 
+	width: 800px; height: 500px;
+
+}
+
+#letters div {
+	position: absolute;
+	background: transparent url(../images/letters.gif) no-repeat 1px 25px;
+	text-align: center;
+	vertical-align: top;
+}
+
+#toDrop {
+	width:600px; height: 60px;
+	border-bottom: 2px solid #757575;
+	position:absolute;
+	left: 200px;top: 250px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.drop-iniDrag {
+	font: normal normal normal 30px/40px sans-serif;
+	width: 40px; height: 40px;
+}
+
+.drop-dragDrag {
+	font: normal normal bold 60px/80px sans-serif;
+	width: 60px; height: 80px;
+
+	color: #040;
+	background-position: 200px;
+}
+
+.drop-overDrop {
+	background-color: #FFA;
+}

@@ -1,0 +1,24 @@
+#logo{
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='logo2.png', sizingMethod='scale');
+}
+
+.caja25x30x240x0, .cajas25x30x240x0 div, .caja40x40x0x0, .cajas40x40x0x0 div, .caja50x50x0x90, .cajas50x50x0x90 div, .caja180x50x0x40, .cajas180x50x0x40 div,.caja230x50x0x140, .cajas230x50x0x140 div, .caja180x30x0x190, .cajas180x30x0x190 div, .caja150x150x0x220, .cajas150x150x0x220 div {
+ 	background-image: url(../images/cajas.gif);
+	}
+
+#ciclo {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='main/images/ciclo.png', sizingMethod='scale');
+}
+
+#MacmillanTit {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='main/images/0_tit1.png', sizingMethod='scale');
+	}
+
+	
+#mainMenu a {
+	padding-left: 27px;
+	}
+

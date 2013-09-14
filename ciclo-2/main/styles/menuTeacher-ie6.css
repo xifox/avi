@@ -1,0 +1,7 @@
+#ciclo {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='main/images/ciclo.png', sizingMethod='scale');}
+}
+#mainMenu a {
+	background-image: url(../images/btnMainMenu.gif);
+}

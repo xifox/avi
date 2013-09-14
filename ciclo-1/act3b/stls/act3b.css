@@ -1,0 +1,81 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_b.gif);}
+#act-caption {background-image: url(../../main/images/cap_b.gif);}
+
+/***********
+*   DESK   *
+***********/
+
+#desk {
+	position: absolute;
+	background: url(none) no-repeat center;
+	width: 1000px;
+	height: 400px;
+	color: #AAA;
+}
+
+#poster {
+	position: relative;
+	margin: auto;
+	background: url(../images/poster.jpg) no-repeat center;
+	width: 280px;
+	height: 206px;
+}
+
+#dspPal p {
+	width: 600px; height: 50px;
+	margin: 0 auto;
+	padding: 0;	
+	text-align: center;
+	font: normal normal bold 25pt/50px sans-serif;
+	vertical-align: middle;
+}											
+
+#karaoke {
+	width: 600px;
+	height: 1px;
+	margin: 0 auto;
+	font-size: 0pt;
+	visibility: hidden;
+}
+
+
+
+#wordKara {
+	color: red;
+}
+
+/***************
+*     DROPS    *
+****************/
+#drops {
+	margin-top: 30px;
+}
+
+#drops div {
+	position: absolute;
+	width: 180px;
+	height: 38px;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	border: 1px solid #ade;
+	padding: 10px 0 2px 80px;
+	font: normal normal bolder 20pt sans-serif;
+}
+
+/***************
+*     DRAGS    *
+****************/
+#drags {
+}
+
+#drags div, #dragsFijos div {
+	position: absolute;
+	cursor: pointer;
+
+}
+
+#drags div {
+	z-index: 150;
+}

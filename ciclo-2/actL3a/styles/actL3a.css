@@ -1,0 +1,80 @@
+#header {
+	background-image: url(../../main/images/cene_L.png);
+}
+
+#section {
+	background-position: -3630px top;
+}
+
+#images {
+	float: left;
+	width: 100px;
+}
+
+#images div {
+	width: 100px;
+	height: 80px;
+	margin-top: 2px;
+	background: transparent url(../images/filmL3a.gif) no-repeat left top; /* - aún falta la imágen. - y porque no avisas boludo! */
+}
+
+#toDrops {
+	float: left;
+	width: 840px;
+	margin-left: 20px;
+}
+
+#toDrops div {
+	width: 400px; height: 40px;
+	padding-top: 40px;
+	font: normal normal bold 30px/40px sans-serif;
+	margin: 0 10px;
+	text-align: center;
+	float: left;
+	vertical-align: text-bottom;
+}
+
+/* wordsDrag div - Cajas de 180x30  */
+#wordsDrag div {
+	width: 180px; height: 30px;
+	font: normal normal bold 17px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* iniDrag */
+.actL3a-iniDrag {
+	background: transparent url(../../main/images/cajas.gif) no-repeat left -190px;	
+}
+
+/* enterDrag */
+.actL3a-enterDrag {
+	background-position: -180px -190px;
+	color: #004;	
+}
+
+/* dragDrag */
+.actL3a-dragDrag {
+	background-position: -360px -190px;
+	color: #040;	
+}
+
+
+/* iniDrop */
+.actL3a-iniDrop {
+	border-bottom: 3px solid #757575;
+	color: #000;
+}
+
+/* overDrop */
+.actL3a-overDrop {
+	border-color: #08F;
+	color: #026;
+}
+
+/* trueDrop */
+.actL3a-trueDrop {
+	border-color: #AFA;
+	color: green;
+}

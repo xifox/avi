@@ -1,0 +1,168 @@
+#header {
+	text-align: right;
+	background: transparent url(../../main/images/cene_menu1.png) repeat-x center center;
+}
+
+#btnCR {
+	left: 30px;
+}
+
+#main {height: 600px;}
+
+#content {
+	height: 480px;
+	position: relative;
+}
+
+#ciclo {
+	position: absolute;
+	background-image: url(../images/ciclo-v3.png);
+	width: 550px;
+	height: 315px;
+	left: 75px; top: 110px;
+	display: block;
+}
+
+#MacmillanTit {
+	background: transparent url(../images/0_tit1.png) no-repeat;
+	width: 411px;
+	height: 90px;
+	position: absolute;
+	top: -100px;
+	right: 0px;
+}
+
+#menuOPC, #menuTeacher {
+	height: 492px;
+	width: 280px;
+	position: absolute;
+	right: 30px;
+}
+
+#menuTeacher {
+	top: 110px;
+}
+
+#menuTeacher p {
+	font: normal normal bold 30px/25px sans-serif;
+}
+
+#menuOPC div, #menuOPC span, #menuTeacher div {
+	display: block;
+	width: 280px;
+	height: 42px;
+	position: relative;
+	background: transparent url(../../main/images/menu-opc.png) no-repeat -3080px top;
+	margin: 3px 0;
+}
+
+
+#menuOPC div a, #menuOPC span a, #menuTeacher div a {
+	z-index: 5;
+	text-align: center;
+	font-size: 18pt;
+	line-height: 40px;
+	display: block;
+	width: 280px; height: 42px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#menuOPC span a {
+	color: black;
+}
+
+#menuOPC div a:hover {
+	background: transparent url(../../main/images/menu-opc.png) no-repeat -3080px top;
+	color: #025;
+	}
+
+#menuOPC span a:hover {
+	background: transparent url(../../main/images/menu-opc.png) no-repeat -560px top;
+	color: #FFF;
+	}
+
+
+#menuTeacher div a {
+	background: transparent url(../../main/images/menu-opc.png) no-repeat -840px top;
+	color: #FFF;
+}
+
+#menuTeacher div a:hover {
+	background: transparent url(../../main/images/menu-opc.png) no-repeat -3080px top;
+	color: #025;
+}
+
+
+#cartelAct {
+	display: none;
+	position: absolute;
+	width: 450px; height: 100px;
+	background: transparent url(../../main/images/caps.gif) no-repeat 0px 95%;
+	z-index: 10;
+	right: 100px; top: 10px;
+}
+
+#mainActvs table {
+	display: none;
+	margin: 100px auto 0 auto;
+	width:100%;
+}
+
+#mainActvs table tr td {
+	height: 25pt;
+	font: normal normal normal 12pt/15pt sans-serif;
+	cursor: pointer;
+	padding: 0 6px;
+	white-space: normal;
+}
+
+#btnBack {
+	display: none;
+	z-index: 10000;
+	position: absolute;
+	left: 380px; top: 480px;
+	font-size: 20pt;
+	line-height: 25pt;
+	cursor: pointer;
+}
+
+.filaCebra0 {
+	background-color: #cff;
+}
+
+.filaCebra1 {
+	background-color: #ccf;
+}
+
+.clr01 {
+	color: #555;
+}
+
+#icnBack {
+	width: 28px; height: 21px;
+	background: transparent url(../../main/images/flechas.gif) no-repeat 0px top;
+}
+
+
+
+#mainMenuTeacher {
+	position: absolute;
+	left: 445px; top: 450px;
+}
+#mainMenuTeacher a {
+	width: 85px; height: 21px;
+	background: #e1e2e2 url(../../main/images/flechas2.gif) no-repeat 0px top;
+	padding: 0 0 0 35px;
+	display: block;
+	margin: 1px;
+	font: normal normal bold 12pt/14pt sans-serif;
+	text-decoration: none;
+	border-right: 20px solid #DDD;
+	border-left: 5px solid #DDD;
+}
+
+#mainMenuTeacher a:hover {
+	background-position: -120px;
+	color: red;
+}

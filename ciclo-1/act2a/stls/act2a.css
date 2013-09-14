@@ -1,0 +1,22 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_a.gif);}
+#act-caption {background-image: url(../../main/images/cap_a.gif);}
+
+/***********
+*  imgDrops  *
+************/
+#desk {
+	width: 795px;
+	height: 496px;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+}
+
+
+#desk div {
+	position: absolute;
+	background: url(../images/li.gif) no-repeat left center;
+	font-size: 11pt;
+	padding-left: 20px;
+}

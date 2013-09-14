@@ -1,0 +1,40 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_i.gif);}
+#act-caption {background-image: url(../../main/images/cap_i.gif);}
+
+#sopa table {
+	float: left;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 18pt;
+	margin-top: 30px;
+}
+
+#sopa tr {
+	height: 50px;
+}
+
+#sopa td {
+	width: 44px;
+	border: 1px solid #757575;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+#desk {
+	float: right;
+	width: 288px; height: 535px;
+	background: transparent url(../images/desk1i.gif) no-repeat left top;
+}
+
+#answers {
+	position: absolute;
+	height: 50px;
+	width: 180px;
+	left: 477px;
+	top: 470px;
+	background: transparent url(../../main/images/cajas.png) no-repeat -540px -40px;
+	font-size: 15pt;
+	cursor: pointer;
+	text-align: center;
+}

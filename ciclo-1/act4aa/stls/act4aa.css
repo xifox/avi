@@ -1,0 +1,26 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_a.gif);}
+#act-caption {background-image: url(../../main/images/cap_a.gif);}
+
+#drags {
+	width: 1000px; height: 70px;
+	position: absolute;
+	top: -75px;
+}
+
+#drags div {
+	background-position: -180px -40px;
+	cursor:pointer;
+}
+
+#drops {
+	width: 1000px; height: 70px;
+	left: 0; top: 100px; 
+	position: absolute;
+}
+
+#drops div {
+	float: left;
+	margin: 0 9px;
+}
+

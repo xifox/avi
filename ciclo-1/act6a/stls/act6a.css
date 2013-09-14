@@ -1,0 +1,470 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_a.gif);}
+#act-caption {background-image: url(../../main/images/cap_a.gif);}
+
+#desk, #fondo {
+	width: 635px;
+	height: 500px;
+	z-index: 0;
+	position: absolute;
+	right: 0px; bottom: 10px;
+	}
+	
+#desk div {
+	position: absolute;
+	display: none;
+	z-index: 20;
+	font-size: 10px;
+}
+
+#fondo {
+	background: transparent url(../images/act21-desk2.gif) no-repeat left top;
+}
+
+#fondo div {
+	font-size: 10px;
+	position: absolute;
+	z-index: 10;
+	display: none;
+}
+
+.act21-e0h {
+	width: 478px;
+	height: 168px;
+	left: 71px;
+	top: 267px;
+	}
+
+.act21-e1h {
+	width: 524px;
+	height: 137px;
+	left: 16px;
+	top: 166px;
+
+	}
+
+.act21-e2h {
+	width: 98px;
+	height: 128px;
+	left: 521px;
+	top: 158px;
+
+	}
+
+.act21-e3h {
+	width: 46px;
+	height: 97px;
+	left: 542px;
+	top: 282px;
+
+	}
+
+.act21-e4h {
+	width: 31px;
+	height: 90px;
+	left: 588px;
+	top: 286px;
+
+	}
+
+.act21-e5h {
+	width: 88px;
+	height: 91px;
+	left: 12px;
+	top: 46px;
+
+	}
+
+.act21-e6h {
+	width: 144px;
+	height: 92px;
+	left: 112px;
+	top: 38px;
+
+	}
+
+.act21-e7h {
+	width: 136px;
+	height: 78px;
+	left: 276px;
+	top: 53px;
+
+	}
+
+.act21-e8h {
+	width: 46px;
+	height: 72px;
+	left: 436px;
+	top: 58px;
+
+	}
+
+.act21-e9h {
+	width: 60px;
+	height: 26px;
+	left: 484px;
+	top: 111px;
+
+	}
+
+.act21-e10h {
+	width: 114px;
+	height: 102px;
+	left: 501px;
+	top: 9px;
+
+	}
+
+.act21-e11h {
+	width: 159px;
+	height: 64px;
+	left: 11px;
+	top: 118px;
+
+	}
+
+.act21-e12h {
+	width: 158px;
+	height: 76px;
+	left: 177px;
+	top: 98px;
+
+	}
+
+.act21-e13h {
+	width: 124px;
+	height: 63px;
+	left: 327px;
+	top: 107px;
+
+	}
+
+.act21-e14h {
+	width: 82px; height: 45px;
+	left: 481px; top: 122px;
+
+	}
+
+.act21-e15h {
+	width: 85px;
+	height: 55px;
+	left: 534px;
+	top: 105px;
+
+	}
+
+.act21-e16h {
+	width: 186px;
+	height: 83px;
+	left: 10px;
+	top: 12px;
+
+	}
+
+.act21-e17h {
+	width: 203px;
+	height: 76px;
+	left: 179px;
+	top: 9px;
+
+	}
+
+.act21-e18h {
+	width: 196px;
+	height: 82px;
+	left: 334px;
+	top: 6px;
+	
+	}
+
+.act21-e19h {
+	width: 40px;
+	height: 62px;
+	left: 94px;
+	top: 78px;
+
+	}
+
+.act21-e20h {
+	width: 38px;
+	height: 60px;
+	left: 245px;
+	top: 67px;
+
+	}
+
+.act21-e21h {
+	width: 34px;
+	height: 46px;
+	left: 404px;
+	top: 71px;
+
+	}
+
+.act21-e22h {
+	width: 80px;
+	height: 74px;
+	left: 63px;
+	top: 349px;
+
+	}
+
+.act21-e23h {
+	width: 118px;
+	height: 74px;
+	left: 97px;
+	top: 389px;
+
+	}
+
+.act21-e24h {
+	width: 41px;
+	height: 216px;
+	left: 13px;
+	top: 189px;
+
+	}
+
+.act21-e25h {
+	width: 122px;
+	height: 220px;
+	left: 23px;
+	top: 192px;
+
+	}
+
+.act21-e26h {
+	width: 80px;
+	height: 102px;
+	left: 411px;
+	top: 364px;
+
+	}
+
+.act21-e27h {
+	width: 176px;
+	height: 115px;
+	left: 449px;
+	top: 375px;
+
+	}
+
+.act21-e28h {
+	width: 128px;
+	height: 112px;
+	left: 330px;
+	top: 376px;
+
+	}
+
+.act21-e29h {
+	width: 231px;
+	height: 98px;
+	left: 132px;
+	top: 389px;
+
+	}
+
+.act21-e30h {
+	width: 125px;
+	height: 101px;
+	left: 90px;
+	top: 93px;
+
+	}
+
+.act21-e31h {
+	width: 61px;
+	height: 32px;
+	left: 110px;
+	top: 160px;
+
+	}
+
+.act21-e32h {
+	width: 155px;
+	height: 125px;
+	left: 296px;
+	top: 159px;
+
+	}
+
+.act21-e33h {
+	width: 100px;
+	height: 45px;
+	left: 332px;
+	top: 239px;
+
+	}
+
+.act21-e34h {
+	width: 90px;
+	height: 36px;
+	left: 196px;
+	top: 191px;
+
+	}
+
+.act21-e35h {
+	width: 104px;
+	height: 44px;
+	left: 188px;
+	top: 273px;
+
+	}
+
+.act21-e36h {
+	width: 170px;
+	height: 161px;
+	left: 423px;
+	top: 24px;
+
+	}
+
+.act21-e37h {
+	width: 54px;
+	height: 32px;
+	left: 219px;
+	top: 177px;
+
+	}
+
+.act21-e38h {
+	width: 63px;
+	height: 42px;
+	left: 209px;
+	top: 253px;
+
+	}
+
+.act21-e39h {
+	width: 104px;
+	height: 104px;
+	left: 77px;
+	top: 239px;
+
+	}
+
+.act21-e40h {
+	width: 111px;
+	height: 77px;
+	left: 180px;
+	top: 322px;
+
+	}
+
+.act21-e41h {
+	width: 46px;
+	height: 62px;
+	left: 481px;
+	top: 379px;
+
+	}
+
+.act21-e42h {
+	width: 54px;
+	height: 103px;
+	left: 490px;
+	top: 149px;
+
+	}
+
+.act21-e43h {
+	width: 48px;
+	height: 98px;
+	left: 551px;
+	top: 168px;
+
+	}
+
+.act21-e44h {
+	width: 28px;
+	height: 18px;
+	left: 448px;
+	top: 81px;
+
+	}
+
+.act21-e45h {
+	width: 35px;
+	height: 27px;
+	left: 194px;
+	top: 121px;
+
+	}
+
+.act21-e46h {
+	width: 51px;
+	height: 51px;
+	left: 289px;
+	top: 177px;
+
+	}
+
+.act21-e47h {
+	width: 131px;
+	height: 84px;
+	left: 16px;
+	top: 402px;
+
+	}
+
+.act21-e48h {
+	width: 88px;
+	height: 132px;
+	left: 488px;
+	top: 318px;
+
+	}
+
+.act21-e49h {
+	width: 25px;
+	height: 20px;
+	left: 450px;
+	top: 94px;
+
+	}
+
+.act21-e50h {
+	width: 46px;
+	height: 72px;
+	left: 436px;
+	top: 58px;
+
+	}
+
+
+
+/* Estilos Brushes */
+
+#circ {
+	position: absolute;
+	left: 10px;top: 10px;
+}
+
+#circ div {
+	position: absolute;
+	left: 500px; top: 490px;
+	width: 40px; height: 40px;
+	cursor: pointer;
+	background: transparent url(../images/circulos.gif) no-repeat left top;
+}
+
+#brocha {
+	width: 60px; height: 73px;
+	background: transparent url(../images/brochas2.gif) no-repeat -1320px top;
+	position:absolute;
+	cursor: pointer;
+}
+
+#box {
+	position:absolute;
+	width:80px; height: 90px;
+	left: 170px; top:440px;
+	background: transparent url(../images/brochas-back2.gif) no-repeat left top;
+}
+
+#guia p {
+	font-size: 20pt;
+	margin: 0; padding: 0;
+	}

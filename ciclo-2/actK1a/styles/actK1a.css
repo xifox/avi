@@ -1,0 +1,99 @@
+#header {
+	background-image: url(../../main/images/cene_K.png);
+}
+
+#section {
+	background-position: -3300px top;
+}
+
+#vtn01 {
+	top: -50px;
+}
+
+#content {
+	font-size: 30px;
+	line-height: 50px;
+	white-space: normal;
+
+}
+
+#staticPharses div {
+	width: 440px; height: 50px;
+	position: absolute;
+	padding: 0 5px;
+}
+
+#resp {
+	position: absolute;
+	top: 150px;
+	width: 440px;
+}
+#resp div {
+	width: 440px; height: 50px;
+	background: #FFE;
+	margin: 0 270px 25px;
+	padding: 0 5px;
+	border-bottom: 3px solid #757575;
+}
+
+#images {
+	position: absolute;
+	width: 900px;
+	top: 290px;
+	left: 30px;
+}
+
+#images div {
+	width: 90px; height: 90px;
+	background: transparent url(../images/filmK1a.gif) no-repeat left top;
+	float: left;
+	margin: 0 67px 40px 68px;
+}
+
+/* #wordsDrag div - Cajas de 180x30  */
+#wordsDrag div {
+	width: 180px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+
+/* iniDrag */
+.actK1a-iniDrag {
+	background: transparent url(../../main/images/cajas.gif) no-repeat left -190px;
+}
+
+/* enterDrag */
+.actK1a-enterDrag {
+	background-position: -180px -190px;
+	color: #004;
+}
+
+/* dragDrag */
+.actK1a-dragDrag {
+	background-position: -360px -190px;
+	color: #040;
+}
+
+
+/* iniDrop */
+.actK1a-iniDrop {
+	background: #eee;
+	border: 1px solid #ddd;
+	color: #444;
+}
+
+/* overDrop */
+.actK1a-overDrop {
+	background: #f4f4f4;
+	border-color: #eee;
+	color: #004;
+}
+
+/* trueDrop */
+.actK1a-trueDrop {
+	background: #fff;
+	color: #000;
+}

@@ -1,0 +1,49 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_c.gif);}
+#act-caption {background-image: url(../../main/images/cap_c.gif);}
+
+/**********
+*  DROPS  *
+**********/
+
+#drops {
+	position: absolute;
+	left: 0; top: 50px;
+	width: 400px; height: 400px;
+	}
+
+
+#drops div {
+	float: left;
+	color: #46A;
+	margin: 20px 0 0 12px;
+}
+
+/**********
+*  DRAGS  *
+***********/
+#drags {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#drags div {
+	position: absolute;
+	left: 500px; top: 490px;
+	width: 40px; height: 40px;
+	cursor: pointer;
+	background: transparent url(../images/circulos.gif) no-repeat left top;
+}
+
+#desk, #desk div {
+	right: 0; top: 0;
+	width: 600px; height: 472px;
+	position: absolute;
+	background: transparent url(../images/act4c.gif) no-repeat left top;
+	z-index: 0;
+}
+
+#desk div {
+	display: none
+	}

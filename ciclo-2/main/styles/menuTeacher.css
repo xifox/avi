@@ -1,0 +1,63 @@
+body {
+	margin: 0; padding: 0;
+}
+
+#header {
+	background: transparent url(../../main/images/cene_menu1.png) repeat-x left top;
+}
+
+#content {
+	height: 535px;
+}
+
+#ciclo {
+	width: 550px; height: 315px;
+	position: absolute;
+	left: 100px; top: 50px;
+	background-image: url(../images/ciclo.png);
+}
+
+#logoMCM {
+	width: 500px; height: 90px;
+	background: transparent url(../../main/images/0_tit1.png) no-repeat center top;
+	margin: 0 auto;
+	position: absolute;
+	right: 0; top: -100px;
+}
+
+#menuTeacher {
+	height: 200px;
+	width: 280px;
+	position: absolute;
+	right: 30px; top: 110px;
+}
+
+#menuTeacher p {
+	font: normal normal bold 30px/50px sans-serif;
+	height: 50px;
+}
+
+#menuTeacher div {
+	display: block;
+	width: 280px;
+	height: 42px;
+	position: relative;
+	margin: 3px 0;
+}
+
+
+#menuTeacher div a {
+	text-align: center;
+	font-size: 18pt;
+	line-height: 40px;
+	display: block;
+	background: transparent url(../../main/images/menu-opc.png) no-repeat -3640px top;
+	width: 280px; height: 42px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#menuTeacher div a:hover {
+	background: transparent url(../../main/images/menu-opc.png) no-repeat -4200px top;
+	color: #420;
+}

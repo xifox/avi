@@ -1,0 +1,28 @@
+#header {
+	background-image: url(../../main/images/cene_G.png);
+}
+
+#section {
+	background-position: -1980px top;
+}
+
+#images div {
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/filmG1a.gif') no-repeat left top;
+	cursor: move;
+}
+
+#toDrop div {
+	position: absolute;
+	background: transparent url('../images/filmG1a.gif') no-repeat -700px top;
+	width: 100px;
+	height: 100px;
+	text-align:center;
+	line-height: 100px;
+	color: #000;
+}
+
+#sounds div {
+	position: absolute;
+	}

@@ -1,0 +1,85 @@
+#header {
+	background-image: url(../../main/images/cene_F.png);
+}
+
+#section {
+	background-position: -1650px top;
+}
+
+#bigTroll, #smallTroll {
+	position: absolute;
+	width: 150px;
+	height: 210px;
+	background: transparent url(../images/filmF3a.gif) no-repeat left top;
+}
+#bigTroll{
+	left: 330px;
+	top: 50px;	
+}
+
+#smallTroll {
+	left: 810px;
+	top: 40px;
+	background-position: -150px 0;
+}
+
+#texts1, #texts2 {
+	width: 360px;
+	font-size: 32px;
+	line-height: 35px;
+}
+#texts1 {
+	position: absolute;
+	top: 40px;
+	left: 25px;
+}
+
+#texts2 {
+	position:absolute;
+	top: 40px;
+	left: 540px;
+}
+
+#texts1 div, #texts2 div {
+	white-space: normal;
+	font-size: smaller;
+}
+
+#wordsDrag div{
+	font-size: 18pt;
+}
+
+
+
+.actF3a-iniDrag {
+	width: 180px; height: 30px;
+	background: transparent url(../../main/images/cajas.gif) no-repeat left -190px;
+	text-align: center;
+	vertical-align: middle;
+	font: normal normal bold 15px/30px sans-serif;
+	cursor: move;
+}
+
+.actF3a-enterDrag {
+	background-position: -180px -190px;
+	color: #026;
+}
+
+.actF3a-dragDrag {
+	background-position: -360px -190px;
+	color: #040;
+}
+
+
+.actF3a-iniDrop{
+	color: #fff;
+	border-bottom: 3px solid #000;
+}
+
+.actF3a-overDrop{
+	border-bottom-color: #08F;
+}
+.actF3a-trueDrop {
+		border-bottom-color: #0C0;
+		color: #080;
+}

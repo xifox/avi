@@ -1,0 +1,42 @@
+#header {
+	background-image: url(../../main/images/cene_H.png);
+}
+
+#section {
+	background-position: -2310px top;
+}
+
+#images div {
+	width: 105px; height: 105px;
+	background-image: url('../images/filmH3a.gif');
+	cursor: move;
+}
+
+#toDrop div {
+	width: 105px; height: 105px;
+	margin: 0 60px;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 105px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+
+#texts div {
+	position: absolute;
+	height: 60px;
+	padding: 10px;
+}
+
+#texts div span {
+	margin: 0 5px;
+	padding: 0 10px;
+	border-bottom: 3px solid #AAA;	
+	color: #fff;
+}
+
+.actH3a-iniDrop {
+	background: transparent url('../images/filmH3a.gif') no-repeat -525px top;
+}

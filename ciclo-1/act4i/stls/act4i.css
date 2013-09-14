@@ -1,0 +1,34 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_i.gif);}
+#act-caption {background-image: url(../../main/images/cap_i.gif);}
+
+#desk {
+	width: 560px; height: 535px;
+	background: transparent url(../images/desk4i.png) no-repeat left top;
+	position: absolute;
+	left: 225px; top: 0px;
+	margin: 0 auto;
+}
+
+
+#drags {
+	width: 180px; height: 240px;
+}
+
+#drags div {
+	background-position: -180px -40px;
+	cursor:pointer;
+}
+
+
+#drops {
+	width: 180px; height: 350px;
+	left: 40px; top: 120px; 
+	position: absolute;
+}
+
+#drops div {
+	float: left;
+	margin-bottom: 50px;
+}
+

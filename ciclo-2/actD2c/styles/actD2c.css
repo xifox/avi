@@ -1,0 +1,59 @@
+#header {
+	background-image: url(../../main/images/cene_D.png);
+}
+
+#section {
+	background-position: -990px top;
+}
+
+#images {
+	width: 990px;
+	height: 460px;
+	margin: 0 auto;
+	background-image: url(../images/actD2c.gif);
+}
+
+#toDrop div, #textsDrag div {
+	width: 88px; height: 45px;
+	white-space: normal;
+	text-align: center;
+	position: absolute;
+}
+
+#textsDrag div {
+	width: 150px; height: 60px;
+	font: normal normal normal 14pt/20pt sans-serif;
+	cursor: move;
+	}
+
+/* iniDrag */
+.actD2c-iniDrag {
+	color: #044;
+}
+
+/* enterDrag */
+.actD2c-enterDrag {
+	color: #005;
+}
+
+/* dragDrag */
+.actD2c-dragDrag {
+	
+}
+
+
+/* iniDrop */
+.actD2c-iniDrop {
+	font: normal normal normal 10pt/14pt sans-serif;
+}
+
+/* overDrop */
+.actD2c-overDrop {
+	
+}
+
+/* trueDrop */
+.actD2c-trueDrop {
+	font-weight: bolder;
+	color: #0A0;
+}

@@ -1,0 +1,27 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_c.gif);}
+#act-caption {background-image: url(../../main/images/cap_c.gif);}
+
+/***********
+*   DESK   *
+***********/
+
+#frases p {
+	width: 100%; height: 50px;
+	font-size: 22pt;
+	position: absolute;
+	text-align: center;
+	margin: 5px 0;
+}
+
+
+#drops div, #drags div {
+	width: 150px; height: 100px;
+	position: absolute;
+	background: url(../images/act3c.gif) no-repeat center center;
+}
+
+#drags div {
+	cursor: pointer;
+}
+

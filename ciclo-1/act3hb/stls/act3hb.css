@@ -1,0 +1,38 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_h.gif);}
+#act-caption {background-image: url(../../main/images/cap_h.gif);}
+
+#drops {
+	position: absolute;
+	z-index: 0;
+	width: 1000px; 	height:355px;
+	top: 0; left: 0;
+	background: transparent url(../images/act3hb.gif) no-repeat left top;
+}
+
+#sound {
+	position: absolute;
+	left : 0px; top: 350px;
+	width: 500px; height: 355px;
+	z-index: 30px;
+}
+
+
+/***************
+*     DRAGS    *
+****************/
+#drags div, #drops div {
+	position: absolute;
+	cursor: pointer;
+	height: 62px;
+	padding-top: 12px;
+	background: transparent url('../images/bocadillos.gif') no-repeat left top;
+	font-size: 12pt;
+	line-height: 15pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+#drops div {
+	background-position: 1000px 0px;
+}

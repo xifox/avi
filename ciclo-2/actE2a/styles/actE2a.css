@@ -1,0 +1,45 @@
+#header {
+	background-image: url(../../main/images/cene_E.png);
+}
+
+#section {
+	background-position: -1320px top;
+}
+
+#sopa {
+	width: 650px;
+	position: absolute;
+	left: 175px; top: 40px;
+}
+
+#sopa table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font: normal normal bold 18pt/20pt Verdana;
+	margin: 0 auto;
+}
+
+#sopa tr {
+	height: 45px;
+}
+
+#sopa td {
+	width: 60px;
+	border: 1px solid #757575;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+
+.palabraOk {
+	background: #2b6;
+	color: white;
+	border: 1px solid #FFF;
+	}
+
+#images div {
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	background: transparent url('../images/filmE2a.gif') no-repeat left top;
+}

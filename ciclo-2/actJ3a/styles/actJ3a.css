@@ -1,0 +1,68 @@
+#header {
+	background-image: url(../../main/images/cene_J.png);
+}
+
+#section {
+	background-position: -2970px top;
+}
+
+#operation div {
+	width: 300px;
+	padding: 10px 4px;
+	height: 150px;
+	white-space: normal;
+	float: left;
+	font: normal normal bold 28px/30px sans-serif;
+	margin: 25px 6px 10px;
+	text-align: center;
+	position: relative
+}
+
+#operation div span {
+	display: block;
+	width: 300px; height: 50px;
+	padding-top: 5px;;
+	border-top: 3px solid #FFF;
+	position: absolute;
+	bottom: 0; left: 0;
+}
+
+/* #returns div - Cajas de 230x50  */
+#returns div {
+	width: 230px; height: 50px;
+	font: normal normal bold 22px/50px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* iniDrag */
+.actJ3a-iniDrag {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat left -140px;
+	cursor: move;
+}
+
+/* enterDrag */
+.actJ3a-enterDrag {
+	background-position: -230px -140px;	
+	color: #004;
+}
+
+/* dragDrag */
+.actJ3a-dragDrag {
+	background-position: -460px -140px;	
+	color: #040;
+}
+
+/* iniDrop */
+.actJ3a-iniDrop {
+	color: #eee;
+	background: #263;	
+	border: 3px solid #000;
+}
+
+/* trueDrop */
+.actJ3a-trueDrop {
+	color: #FFF;
+	background: #2B5;
+	border: 3px solid #064;
+}

@@ -1,0 +1,38 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_e.gif);}
+#act-caption {background-image: url(../../main/images/cap_e.gif);}
+
+#drags div, #dragsFijos div {
+	position: absolute;
+	background-position: -180px -190px;
+	cursor: pointer;
+}
+
+#dragsFijos {
+	z-index: 0
+}
+
+#txtDrop {
+	position: absolute;
+	top: 350px; left: 100px;
+	white-space:normal;
+	width: 800px; height: 80px;
+	background: transparent url(../images/drop.gif) no-repeat left top;
+	font: normal normal bold 25pt/80px sans-serif;
+	padding: 5px 10px;
+	text-align:center;
+}
+
+#btnReinicio div{
+	position: absolute;
+	left:750px;top:20px;
+	background-position:-360px -190px;
+	cursor:pointer;
+	z-index: 1010;
+}
+
+#bloqueo {
+	background: #AAA;
+	}
+
+

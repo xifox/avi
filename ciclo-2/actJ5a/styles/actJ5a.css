@@ -1,0 +1,23 @@
+#header {
+	background-image: url(../../main/images/cene_J.png);
+}
+
+#section {
+	background-position: -2970px top;
+}
+
+#pharses div {
+	width: 320px; height: 55px;
+	float: left;
+	margin: 0 5px 12px;
+	border-bottom: 3px solid #757575;
+	font: normal normal normal 30pt/55px sans-serif;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #EFE;
+}
+
+#pharses {
+	position: absolute;
+	margin-top: 30px;
+}

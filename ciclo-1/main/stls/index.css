@@ -1,0 +1,41 @@
+#main {
+	width: 1016px; height: 500px;
+	margin: 20px 0;
+	background: transparent url('../images/logox400.jpg') no-repeat center 310px;
+	position: relative;
+	
+}
+
+p {
+	text-align: center;
+	margin: 0; padding: 0;
+	font-size: 10pt;
+}
+
+#impRes {
+	font-weight: bold;
+	color: brown;
+}
+
+#actMenu {
+	width: 1014px;
+	margin-left: 8px;
+	position: relative;
+}
+	
+#actMenu div {
+	width: 94px; height: 200px;
+	padding: 80px 2px 0 2px;
+	background: #ff8;
+	float: left;
+	border: 1px solid #888;
+	background: transparent url('../images/menu0.gif') no-repeat center 10px;
+}
+
+#actMenu div span {
+	color: black;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	font: normal normal normal 10pt/14pt sans-serif;
+}

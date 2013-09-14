@@ -1,0 +1,52 @@
+#header {
+	background-image: url(../../main/images/cene_C.png);
+}
+
+#section {
+	background-position: -660px top;
+}
+
+#images div {
+	width: 100px; height: 100px;
+	background-image: url('../images/filmC1a.gif');
+	float: left;
+	margin: 0 75px 80px 75px;
+}
+
+#toDrop div, #asignature div {
+	font-size: 18pt;
+}
+
+#toDrop div {
+	position: absolute;
+}
+
+
+
+.desp180-iniDrag, .desp180-iniDrop {
+	text-align: center;
+	font: normal normal bold 36px/50px Verdana;
+	width: 180px; height: 50px;
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat 0px -40px;
+}
+
+.desp180-iniDrag {
+	cursor: move;
+}
+.desp180-enterDrag {
+	background-position: -360px -40px;
+	color: #155;
+}
+
+.desp180-dragDrag {
+	background-position: -720px -40px;
+	color: #511;
+}
+
+.desp180-trueDrop {
+	background-position: -540px -40px;
+}
+
+.desp180-overDrop {
+	background-position: -180px -40px;
+}

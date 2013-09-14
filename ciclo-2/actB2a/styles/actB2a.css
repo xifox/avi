@@ -1,0 +1,59 @@
+#header {
+	background-image: url(../../main/images/cene_B.png);
+}
+
+#section {
+	background-position: -330px top;
+}
+
+#board {
+	position: absolute;
+	left: 10px;
+	top: 25px;
+	width: 500px;
+	height: 337px;
+	background: transparent url('../images/deskB2a.gif') no-repeat left top;
+}
+
+#soundbox {
+	float: right;
+}
+
+#soundbox table {
+	width: 344px;
+ 	border-spacing: 0;
+  	border-collapse: collapse;
+	margin-top: 30px;
+}
+
+#soundbox table td {
+	width: 50%; height: 60px;
+  	border: 2px solid #000;
+	font-size: 22pt;   
+	text-align: center;
+}
+
+#soundbox table tbody td {
+	background: transparent url(../images/filmB2a.gif) no-repeat 170px center;
+}
+
+#days div, #actOk div {
+	width: 170px; height: 60px;
+	background: transparent url('../images/filmB2a.gif') no-repeat left top;
+}
+
+
+#actOk {
+	position: absolute;
+	right: 0; top: 0;
+	display: none;
+}
+
+#actOk div {
+	float: left;
+	background-position: right top;
+	font-size: 22pt;
+	line-height: 60px;
+	text-align: center;
+	margin: 0 1px;
+}

@@ -1,0 +1,33 @@
+#header {
+	background-image: url(../../main/images/cene_B.png);
+}
+
+#section {
+	background-position: -330px top;
+}
+
+#section {
+	background-position: -330px top;
+}
+
+
+
+#days div, #toDrop div, #cajaDrop div {
+	width: 170px;
+	height: 60px;
+	background: transparent  url(../images/filmB1a.gif) no-repeat right center;
+	position: absolute;
+}
+
+#toDrop div {
+	z-index: 20
+}
+
+#cajaDrop div {
+	z-index: 10
+}
+
+#sounds div {
+	position: absolute;
+}
+

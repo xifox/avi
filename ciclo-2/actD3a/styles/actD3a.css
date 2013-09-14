@@ -1,0 +1,55 @@
+#header {
+	background-image: url(../../main/images/cene_D.png);
+}
+
+#section {
+	background-position: -990px top;
+}
+
+#desk, #under {
+	width: 421px; height: 450px;
+	position: absolute;
+	left:289px; top: 30px;
+	z-index: 10;
+	background: transparent url(../images/deskD3a.gif) no-repeat left top; 
+}
+
+#under {
+	background-position: -421px top;
+	z-index: 200;
+}
+
+#desk div {
+	z-index: 200;
+	position: absolute;
+}
+
+#wordsDrag div {
+	cursor: move;
+}
+
+#drops div {
+	position: absolute;
+}
+
+.DxD-iniDrag, .DxD-iniDrop {
+	text-align: center;
+	font: normal normal bold 28px/50px sans-serif;
+	width: 180px; height: 50px;
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat 0px -40px;
+}
+
+.DxD-enterDrag, .DxD-overDrop {
+	background-position: -360px -40px;
+	color: #155;
+}
+
+.DxD-dragDrag {
+	background-position: -540px -40px;
+	color: #040;
+}
+
+.DxD-trueDrop {
+	background-position: -180px -40px;
+	color: #020;
+}

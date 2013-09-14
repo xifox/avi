@@ -1,0 +1,53 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_f.gif);}
+#act-caption {background-image: url(../../main/images/cap_f.gif);}
+
+/* Cajas de sonidos */
+#snd div {
+	position:absolute;
+	width: 45px;
+	height:41px;
+	background: transparent url(../images/snd.gif) no-repeat center top;
+	z-index: 40;
+	cursor: pointer;
+}
+
+/***********
+*   DESK   *
+***********/
+#desk {
+	position: absolute;
+	left : 50px; top: 0px;
+	background: url(../images/desk.gif) no-repeat center top;
+	width: 800px; 	height: 535px;
+}
+
+/***************
+*     DRAGS    *
+****************/
+#drags div {
+	cursor: pointer;
+	position: absolute;
+	font-size : 15pt;
+	background-position: -180px -190px;
+}
+
+/***************
+*     DROPS    *
+****************/
+#drops div, #dropsFnd div {
+	cursor: pointer;
+	position: absolute;
+	width: 100px; height: 100px;
+	font : normal normal bold 15pt/100px sans-serif;
+}
+
+#drops div {
+	color: yellow;
+	z-index: 30;
+}
+
+#dropsFnd div {
+	z-index: 20;
+	color: #000;
+}

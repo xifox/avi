@@ -1,0 +1,22 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_e.gif);}
+#act-caption {background-image: url(../../main/images/cap_e.gif);}
+
+#imgFijas div, #dado, #fxCuadro {
+	position: absolute;
+	width: 190px; height: 190px;
+	padding: 5px;
+}
+
+#imgFijas div, #dado {
+	font-weight: bold;
+	background: transparent url(../images/film.gif) no-repeat left top;
+	z-index: 10;
+}
+#dado {
+	left: 50px; top: 120px;
+	width: 175px;
+	background-position: -2000px 0px;
+	border: 0;
+	cursor: pointer;
+}

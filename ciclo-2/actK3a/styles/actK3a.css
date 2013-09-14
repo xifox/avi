@@ -1,0 +1,58 @@
+#header {
+	background-image: url(../../main/images/cene_K.png);
+}
+
+#section {
+	background-position: -3300px top;
+}
+
+#desk {
+	width: 705px; height: 535px;
+	margin: 0 auto;
+	background: transparent url('../images/deskK3a.gif') no-repeat left bottom;
+}
+
+/* #wordDrags div - Cajas de 180x50  */
+#wordDrags div, #toDrops div {
+	width: 180px; height: 50px;
+	font: normal normal bold 36px/50px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+}
+
+/* iniDrag */
+.actK3a-iniDrag {
+	cursor: move;
+	background: transparent url(../../main/images/cajas.gif) no-repeat left -40px;	
+}
+
+/* enterDrag */
+.actK3a-enterDrag {
+	background-position: -180px -40px;
+	color: #004;
+}
+
+/* dragDrag */
+.actK3a-dragDrag {
+	background-position: -540px -40px;
+	color: #030;
+}
+
+
+/* iniDrop */
+.actK3a-iniDrop {
+	background: transparent url(../../main/images/cajas.gif) no-repeat left -40px;	
+}
+
+/* overDrop */
+.actK3a-overDrop {
+	background-position: -540px -40px;
+	color: #000;
+}
+
+/* trueDrop */
+.actK3a-trueDrop {
+	background-position: -360px -40px;
+	color: #04A;
+}

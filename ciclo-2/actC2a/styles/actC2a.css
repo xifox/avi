@@ -1,0 +1,72 @@
+#header {
+	background-image: url(../../main/images/cene_C.png);
+}
+
+#section {
+	background-position: -660px top;
+}
+
+#daystable table {
+	margin: 0 auto;
+ 	border-spacing: 0;
+  	border-collapse: collapse;
+  	table-layout: fixed;
+}
+
+#daystable table td , #asignatures div {
+	width: 190px; height: 60px;
+  	border: 1px solid #666;
+	font-size: 20pt;
+	text-align: center;
+}
+
+#asignatures div {
+	cursor: move;
+}
+
+#daystable table thead td {
+	background: #EEE;
+	border: 0px;
+	color: #888;
+	border-bottom: 3px solid #666;
+}
+
+#daystable table thead, #daystable table tbody {
+	border: 3px solid #666;
+}
+
+#asignatures {
+	line-height: 60px;
+}
+.music {
+	background-color: #C60;
+	color: #FEA;
+}
+.maths {
+	background-color: silver;
+	color: #334;
+}
+.geography {
+	background-color: #55F;
+	color: #DDF;
+}
+.english {
+	background-color: pink;
+	color: #321;
+}
+.science {
+	background-color: yellow;
+}
+.pe {
+	background-color: #2B2;
+	color: #EFE;
+	
+}
+.history {
+	background-color: #A0F;
+	color: #EDF;
+}
+.art {
+	background-color: #F33;
+	color: #FEE;
+}

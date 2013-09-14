@@ -1,0 +1,52 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_c.gif);}
+#act-caption {background-image: url(../../main/images/cap_c.gif);}
+
+#sopa {
+	position: absolute;
+	right: 0; top: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font: normal normal bold 18pt/20pt sans-serif;
+}
+
+#sopa tr {
+	height: 50px;
+}
+
+#sopa td {
+	width: 60px;
+	border: 1px solid #757575;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+
+.palabraOk {
+	background: #158;
+	color: white;
+	}
+
+#drags {
+	width: 1000px; height: 70px;
+}
+
+#drags div {
+	font-size: 25px;
+	background: transparent url(../images/circulos.png) no-repeat left top;
+	cursor:pointer;
+}
+
+
+#drops {
+	width: 560px; height: 70px;
+	right: 50px; bottom: 0;
+	position: absolute;
+}
+
+#drops div {
+	font-size: 22px;
+	float: left;
+	margin: 0 50px;
+}
+

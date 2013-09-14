@@ -1,0 +1,15 @@
+#header {
+	background-image: url(../../main/images/cene_D.png);
+}
+
+#section {
+	background-position: -990px top;
+}
+
+#images {
+	width: 990px; height: 441px;
+	margin: 0 auto;
+	background-image: url(../images/filmD2a.gif);
+	position:absolute;
+	top: 60px;
+}

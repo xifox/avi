@@ -1,0 +1,42 @@
+#header {
+	background-image: url(../../main/images/cene_D.png);
+}
+
+#section {
+	background-position: -990px top;
+}
+
+
+#karaoke {
+	width: 600px; height: 200px;
+	position: absolute;
+	left: 200px; bottom: 0px;
+	font: normal normal bold 26px/30px sans-serif;	
+}
+
+#karaoke div {
+	margin: 20px 0;
+}
+
+#karaoke p {
+	margin: 0;
+}
+
+#karaoke span {
+	margin: 0 5px;
+	font: normal normal bold 26px/30px sans-serif;	
+}
+
+#contentFilm {
+	width: 400px; height: 350px;
+	overflow: hidden; 
+	position: relative;
+	left: 300px;
+	}
+
+#film {
+	width: 2000px; height: 350px;
+	background: transparent url(../images/filmD1b.png) no-repeat left top;
+	position: absolute;
+	left: 0; top: 0;
+}

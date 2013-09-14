@@ -1,0 +1,32 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_a.gif);}
+#act-caption {background-image: url(../../main/images/cap_a.gif);}
+
+#content {
+	text-transform: lowercase;z
+}
+
+
+#imgDyDs {
+	position: absolute;
+	top: 10px; left: 50px;
+	width: 900px;
+	height: 531px;
+	background: transparent url(../images/e0.gif) no-repeat center top;
+}
+
+/* Cajas de Drags And Drops */
+#dyds div {
+	position: absolute;
+	visibility: hidden;
+	z-index:10;
+}
+
+/* Todos los Drags y Drops de cada caja */
+#dyds div div, .solOk {
+	visibility: visible;
+	top: 10px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+	}

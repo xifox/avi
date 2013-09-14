@@ -1,0 +1,64 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_f.gif);}
+#act-caption {background-image: url(../../main/images/cap_f.gif);}
+
+/***********
+*   DESK   *
+***********/
+#desk {
+	position: absolute;
+	background: url(../images/desk.gif) no-repeat center;
+	width: 662px; 	height: 392px;
+	z-index: 0;
+	left:150px; top:0px;
+	
+}
+/***************
+*  TXT DROPS  *
+****************/
+#txtDrops div {
+	position: absolute;
+	width:100px; height: 30px;
+	background: transparent url(none) no-repeat left top;
+	font-size:15pt;
+	line-height:30px;
+	z-index: 20;
+}
+
+
+
+/***************
+*  DROPS  *
+****************/
+#drops div {
+	position: absolute;
+	width:180px; height: 160px;
+	background: transparent url(../images/film3f.gif) no-repeat -1080px top;
+	z-index: 20;
+}
+
+/***************
+*     DRAGS    *
+****************/
+#drags div {
+	position: absolute;
+	left:0px; top:0px; 
+}
+
+#drags div {
+	cursor: pointer;
+	position: absolute;
+	background: transparent url(../images/film3f.gif) no-repeat left top;
+	width:180px; height: 160px;
+
+}
+
+/* 		RARE-FONT		*/
+#rareFont {
+	position: absolute;
+	left: 270px;
+	top: 410px;
+	width: 400px;
+	height: 115px;
+	background: transparent url(../images/film3f-rareFonts.gif) no-repeat 400px top;
+}

@@ -1,0 +1,86 @@
+#header {
+	background-image: url(../../main/images/cene_H.png);
+}
+
+#section {
+	background-position: -2310px top;
+}
+
+#images {
+	width: 110px; height: 520px;
+	position: absolute;
+	left: 700px;
+}
+
+#images div {
+	width: 105px; height: 105px;
+	background: transparent url('../images/filmH2a.gif') no-repeat left top;
+	margin-bottom: 25px;
+}
+
+
+#sentences {
+	width: 400px; height: 520px;
+	position: absolute;
+	left: 300px; top: 0;
+}
+
+#sentences div {
+	height: 130px;
+}
+
+#sentences p {
+	margin: 0; padding: 0;
+	height: 27px;
+	font: normal normal bold 20px/22px sans-serif;
+}
+
+/*** drags seasons div - Cajas de 150x30 ***/
+#seasons div {
+	width: 150px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actH2a-iniDrag {
+	background: transparent url(../../main/images/cajas/150x30.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actH2a-enterDrag {
+	color: #040;
+	background-position: -150px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actH2a-dragDrag {
+	color: #004;
+	background-position: -150px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actH2a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actH2a-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actH2a-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 150x30 del objeto seasons ***/

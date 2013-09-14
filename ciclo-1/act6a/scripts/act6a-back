@@ -1,0 +1,152 @@
+Window.onDomReady(function() {
+
+	// Elementos de Paleta de colores
+	var paleta = $$('#drags div');
+
+	// Pincel
+	//var pincel = $ ('brush');
+
+	// Color del Pincel. clrBr -> Color Brush
+	var clrBr = 0;
+
+	// Elementos del Tablero
+	tablero = $$('#desk div');
+
+
+	//	Variable de estilo de un drag. Sirve para el fxPincel.
+	var estilos = '';
+
+	// Estado de Pincel: Pinta o no-Pinta. (true, false). stdBr -> state Brush.
+	var stdBr = false;
+
+	fxPincel = paleta[0].effects({transition:Fx.Transitions.Back.easeOut});
+
+	/***	PINCEL	***/
+	// Elevamos el Pincel a 10. Inicialmente el pincel esta debajo de todas las fichas del tablero
+	//pincel.setStyle ('z-index', 1000);
+
+
+
+	/***	TABLERO	***/
+	tablero.each(function(ficha, i) {
+	
+		// Bajamos todas las fichas a nivel 10
+		var urlImg = 'images/act21-e' + i + 'h.gif';
+		ficha.setStyles ({
+			'background-image': 'url(' + urlImg + ')',
+			opacity: '.01'
+		});
+
+		// Ponemos el numerito a cada imagen
+		ficha.setText (clrFicha[i]);
+
+		
+		ficha.addEvents ({
+			'mousemove': function(el, obj) {
+			
+				//$('msn').setText ('mousemove sobre el elemento ' + ficha.getStyle ('top'));
+				// Pintamos las fichas si tenemos permiso.			
+				if (stdBr) {
+					// Controlamos correspondencia de color
+					if (clrBr == clrFicha[i]) {
+					
+						// Cambiamos imagen de fondo y la llevamos al piso
+						var fxFicha = new Fx.Styles(ficha, {duration: 500, wait:false});
+						fxFicha.start({
+							'opacity': '1'
+						});
+
+						
+						var urlImg = 'images/act21-e' + i + 'h.gif';
+						this.setStyles ({
+							'z-index': 0
+						});
+						
+						console.log (this);
+					}
+				};
+			},
+
+			'mouseup': function (el, obj) {
+				//	Efecto visual del drag
+				fxPincel.start(estilos);
+
+				// No pintas mas Capo.
+				stdBr = false;
+			}
+		});
+	});
+	
+	
+	
+	
+	
+	
+	/***	PALETA	***/
+	paleta.each (function(pintura, i) {
+
+		// Hacemos al pincel dragable
+		miDrag = new Drag.Move(pintura, {
+			container: $('content'),
+			/*onDrag: function () {
+				var arrTmp = [];
+				arrTmp = miDrag.out ? false : tablero.filter (miDrag.checkAgainst, miDrag);
+				//arrOvered = arrTmp ? arrTmp.copy() : false;
+				console.log (arrTmp);
+			}*/
+		});
+
+
+		pintura.addEvents({
+			'mousedown': function(el, obj) {
+			
+				// Podes Pintar
+				stdBr = true;
+				
+				// Tratemos el pincel bien arriba
+				pintura.setStyle ('z-index', 0);
+				
+				//	Tenemos que traer al frente todos los divs del tablero del color del pincel
+				fichaClr[i].each (function (indFicha) {
+					tablero[indFicha].setStyle ('z-index', 300);
+					//console.log (tablero[indFicha]);
+				});
+
+				// Cambiamos estilo del pincel
+				//var urlImg = 'images/act21-br' + i + '.gif';
+				//pincel.setStyle ('background-image', 'url(' + urlImg + ')');
+
+				// Guardamos el color del pincel.
+				clrBr = i;
+
+				// Copiamos coordenadas de retorno para fxPincel
+				estilos = pintura.getStyles ('top', 'left');
+
+			},
+	
+			'mouseup': function(el, obj) {
+
+				// Definimos efecto de movimiento
+				fxPincel = pintura.effects({transition:Fx.Transitions.Back.easeOut});
+
+				//	Efecto visual del drag
+				fxPincel.start(estilos);
+
+				
+				// Llevamos atras todas las ficfas
+				fichaClr[i].each (function (indFicha) {
+					tablero[indFicha].setStyle ('z-index', 10);
+					//console.log (tablero[indFicha]);
+				});
+
+				// Volvemos el pincel para abajo
+				pintura.setStyle ('z-index', 300);
+
+				// No pintas mas Capo.
+				stdBr = false;
+			}
+		});
+	});
+	
+	
+});

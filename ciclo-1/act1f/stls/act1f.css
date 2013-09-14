@@ -1,0 +1,70 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_f.gif);}
+#act-caption {background-image: url(../../main/images/cap_f.gif);}
+
+/* Cajas de sonidos */
+
+
+#sound {
+	position:absolute;
+	width: 30px; 	height: 100px;
+	top: 50px;
+	left: 850px;
+	z-index: 0px;
+}
+#sound div {
+	position: relative;
+	margin-bottom: 30px;
+	z-index: 100px;
+}
+
+/***********
+*   DESK   *
+***********/
+#desk {
+	position: absolute;
+	background: url(../images/desk.gif) no-repeat center;
+	width: 1000px;
+	height: 376px;
+}
+
+/***************
+*     DROPS    *
+****************/
+#drops {
+}
+
+#drops div {
+	position: absolute;
+}
+
+#e0 {
+	width: 155px;
+	height: 131px;
+}
+
+#e1 {
+	width: 135px;
+	height: 123px;
+}
+
+#e2 {
+	width: 142px;
+	height: 134px;
+}
+
+#e3 {
+	width: 133px;
+	height: 131px;
+}
+
+/***************
+*     DRAGS    *
+****************/
+#drag {
+	cursor: pointer;
+	width: 114px;
+	height: 93px;
+	top: 400px; left: 400px;
+	background: transparent url('../images/drag.gif') no-repeat;
+}

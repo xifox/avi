@@ -1,0 +1,100 @@
+#header {
+	background-image: url(../../main/images/cene_O.png);
+}
+
+#section {
+	background-position: -4620px top;
+}
+
+#estrofas {
+	float: left;
+	white-space: normal;
+	font: normal normal normal 21px/30px sans-serif;
+}
+
+#estrofas div {
+	width: 280px; height: 220px;
+	margin: 10px; padding: 10px;
+	background-color: #EFE;
+	border: 1px solid #BEB;
+	position: relative;
+}
+
+#estrofas div div {
+	width: 40px; height: 40px;
+	margin:0; padding: 0;
+	right: 10px; top: 10px;
+	position: absolute;
+	z-index: 500;
+	border: 0;
+}
+
+#foods div {
+	width: 80px;
+	height: 80px;
+	background-image: url(../images/film1O1a.gif);
+	cursor: move;
+}
+
+
+#drops {
+	width: 690px; height: 250px;
+	position: absolute;
+	bottom: 0; right: -10px;
+}
+
+#drops p {
+	margin: 0; padding: 0;
+	height: 20px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+#monga {
+	width: 100px; height: 100px;
+	position: absolute;
+	left: 210px; top: 90px;
+	z-index: 200;
+	background: #EFE url(../images/drop2.gif) no-repeat left top;
+}
+
+#mongo {
+	width: 100px; height: 100px;
+	position: absolute;
+	left: 210px; top: 340px;
+	z-index: 200;
+	background: #EFE url(../images/drop1.gif) no-repeat left top;
+}
+
+
+#nenaDlike {
+	background: #FFE url(../images/drop2.gif) no-repeat left top;
+	padding-left: 100px;
+}
+
+#nenaLike {
+	background-color: #FFE;
+}
+
+#neneDlike {
+	background: #EFF url(../images/drop1.gif) no-repeat left top;
+	padding-left: 100px;
+}
+#neneLike {
+	background-color: #EFF;
+}
+
+#drops div {
+	width: 290px; height: 110px;
+	float: left;
+	margin: 0 0 20px;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+}
+
+#drops div span {
+	display: block; float: left;
+	width: 80px; height: 80px;
+	margin: 0 8px;
+	background: transparent url(../images/film1O1a.gif) no-repeat 80px top;
+}

@@ -1,0 +1,56 @@
+#header {
+	background-image: url(../../main/images/cene_N.png);
+}
+
+#section {
+	background-position: -4290px top;
+}
+
+#images div {
+	width: 240px; height: 200px;
+	background: transparent url(../images/filmN2a.gif) no-repeat left top;
+	float: left;
+	margin: 0 46px 10px;
+	position: relative;
+}
+
+#images div span {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat left -140px;
+	width: 230px; height: 50px;
+	margin: 0 5px;
+	display: block; position: absolute;
+	bottom: 0px;
+	font: normal normal bold 17px/50px sans-serif;
+	text-align: center;
+}
+
+/* #sentences div - Cajas de 230x50  */
+#sentences div {
+	width: 230px; height: 50px;
+	font: normal normal normal 18px/50px sans-serif;
+	text-align: center;
+	cursor: move;
+}
+
+/* iniDrag */
+.actN2a-iniDrag {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat -690px -140px;
+	color: #025;	
+}
+
+/* enterDrag */
+.actN2a-enterDrag {
+	background-position: -230px -140px;
+	color: #004;
+}
+
+/* dragDrag */
+.actN2a-dragDrag {
+	background-position: -460px -140px;
+	color: #040;
+}
+
+/* trueDrop */
+.actN2a-trueDrop {
+	color: #026;	
+}

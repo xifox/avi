@@ -1,0 +1,53 @@
+#header {
+	background-image: url(../../main/images/cene_H.png);
+}
+
+#section {
+	background-position: -2310px top;
+}
+
+
+#blocks {
+	width: 1000px; height: 200px;
+	position: absolute;
+	left: 35px; top: 0;
+}
+
+#blocks div {
+	width: 128px; height: 200px;
+	float: left;
+	margin-top: 30px;
+	padding: 25px 0 0 100px;
+	font: normal normal normal 18px/20px sans-serif;	
+}
+
+.actH4b-iniDrag {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat left -140px;
+	text-align: center;
+	vertical-align: middle;
+	font: normal normal bold 30px/50px sans-serif;
+	width: 230px; height: 50px;
+	cursor: move;
+}
+
+.actH4b-enterDrag {
+	color: #004;
+	background-position: -230px -140px;
+}
+
+.actH4b-dragDrag {
+	color: #000;
+	background-position: -460px -140px;
+}
+
+.actH4b-iniDrop {
+	background: transparent url('../images/filmH4b.gif') no-repeat left top;
+}
+
+.actH4b-overDrop {
+	background-color: #EFF;
+}
+
+.actH4b-overTrueDrop {
+	background-color: #FFE;
+}

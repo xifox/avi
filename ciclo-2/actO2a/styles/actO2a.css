@@ -1,0 +1,95 @@
+#header {
+	background-image: url(../../main/images/cene_O.png);
+}
+
+#section {
+	background-position: -4620px top;
+}
+
+#images {
+	width: 80px; height: 535px;
+	position: absolute;
+	left: 0; top: 0
+}
+
+#images div {
+	width: 80px; height: 80px;
+	background: transparent url(../images/filmO2a.gif) no-repeat left top;
+	padding-bottom: 50px;
+}
+
+
+#foods {
+	width: 600px; height: 535px;
+	position: absolute;
+	left: 120px; top: 0;
+}
+
+#foods div {
+	width: 600px; height: 535px;
+}
+
+#foods p {
+	margin: 0; padding: 0;
+	text-align: left;
+	height: 100px;
+	padding-top: 30px;
+	font: normal normal bold 40pt/90px sans-serif;
+}
+
+#foods span {
+	line-height: 57px;
+}
+
+
+
+
+/*** drags sentences div - Cajas de 180x30 ***/
+#sentences div {
+	width: 180px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.actO2a-iniDrag {
+	background: transparent url(../../main/images/cajas/180x30.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.actO2a-enterDrag {
+	color: #040;
+	background-position: -180px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.actO2a-dragDrag {
+	color: #004;
+	background-position: -360px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.actO2a-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.actO2a-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.actO2a-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 180x30 del objeto sentences ***/

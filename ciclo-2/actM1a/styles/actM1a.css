@@ -1,0 +1,87 @@
+#header {
+	background-image: url(../../main/images/cene_M.png);
+}
+
+#section {
+	background-position: -3960px top;
+}
+
+#image {
+	width: 190px;
+	height: 300px;
+	background: transparent url(../images/deskM1a.gif) no-repeat left center;
+	margin-top: 50px;
+	float: left;
+}
+
+/*** drags sentences div - Cajas de 150x30 ***/
+#sentences div {
+	width: 150px; height: 30px;
+	font: normal normal bold 18px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.DxD-iniDrag {
+	background: transparent url(../../main/images/cajas/150x30.png) no-repeat left top;
+	color: #400;	
+}
+
+#quest div {
+	width: 600px; height: 50px;
+	position: absolute;
+	left: 200px; top: 80px;
+}
+
+#rotulator {
+	width: 600px; height: 50px;
+	position: absolute;
+	left: 200px; top: 160px;
+	border-bottom: 2px dashed #757575;
+}
+
+#quest p {
+	font: normal normal bolder 30pt/50px sans-serif;
+}
+
+#quest span {
+	line-height: 46px;
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.DxD-enterDrag {
+	color: #040;
+	background-position: -150px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.DxD-dragDrag {
+	color: #004;
+	background-position: -300px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.DxD-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #DED;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.DxD-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.DxD-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 150x30 del objeto sentences ***/
+

@@ -1,0 +1,80 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_e.gif);}
+#act-caption {background-image: url(../../main/images/cap_e.gif);}
+
+/* Image of Drags */
+#imgDrag {
+	background: transparent url(../images/desk.gif) no-repeat;
+	width:621px; height:440px;
+	float: left;
+}
+
+/* #drags div div - Cajas de 180x50  */
+#drags div {
+	width: 180px; height: 50px;
+	font: normal normal bold 36px/50px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#drags div {
+	cursor: move;
+}
+
+#drops {
+	width: 330px;
+	height: 440px;
+	float: right;
+}
+
+/* #drops div - Cajas de 150x150  */
+#drops div {
+	width: 150px; height: 150px;
+	margin: 0 0 5px 5px;
+	float: left;
+}
+
+#cover {
+	position: absolute;
+	top: 0px; left: 550px;
+	width: 150px; height: 350px;
+	margin: 5px auto 0 auto;
+	opacity: 0.5;
+	margin: 5px auto 0 auto;
+	z-index: 100;
+}
+
+/* iniDrag */
+.act2e-iniDrag {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat -180px -40px;
+	color: #002
+}
+
+/* enterDrag */
+.act2e-enterDrag {
+	background-position: -360px -40px;
+	color: #004;
+}
+
+/* dragDrag */
+.act2e-dragDrag {
+	background-position: -540px -40px;
+	color: #020;
+}
+
+
+/* iniDrop */
+.act2e-iniDrop {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat left -220px;	
+}
+
+/* overDrop */
+.act2e-overDrop {
+	background-position: -300px -220px;
+}
+
+/* trueDrop */
+.act2e-trueDrop {
+	
+}
+

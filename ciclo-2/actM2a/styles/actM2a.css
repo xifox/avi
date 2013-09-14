@@ -1,0 +1,71 @@
+#header {
+	background-image: url(../../main/images/cene_M.png);
+}
+
+#section {
+	background-position: -3960px top;
+}
+
+#images div {
+	width: 170px; height: 230px;
+	background: transparent url(../images/filmM2a.gif) no-repeat left top;
+	float: left;
+	margin: 0 15px;
+	position: absolute;
+}
+
+#images div span {
+	width: 180px; height: 45px;
+	display: block; position: absolute;
+	bottom: 00px; left: 0px;
+	text-align: left;
+	font-size: 30px; line-height: 40px;
+}
+
+/* #adjectives div - Cajas de 180x50  */
+#adjectives div {
+	width: 180px; height: 50px;
+	font: normal normal bold 32px/50px sans-serif;
+	text-align: center;
+	cursor: move;
+	vertical-align: middle;
+}
+
+/* iniDrag */
+.actM2a-iniDrag {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat left -40px;
+	color: #000;	
+}
+
+/* enterDrag */
+.actM2a-enterDrag {
+	background-position: -180px -40px;
+	color: #004;
+}
+
+/* dragDrag */
+.actM2a-dragDrag {
+	background-position: -540px -40px;
+	color: #040;
+}
+
+
+/* iniDrop */
+.actM2a-iniDrop {
+	color: #000;
+	border-bottom: 3px solid #757575;
+}
+
+/* overDrop */
+.actM2a-overDrop {
+	color: #004;
+	border-color: #08F;
+}
+
+/* trueDrop */
+.actM2a-trueDrop {
+	color: #061;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}

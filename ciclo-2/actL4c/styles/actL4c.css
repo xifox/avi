@@ -1,0 +1,32 @@
+#header {
+	background-image: url(../../main/images/cene_L.png);
+}
+
+#section {
+	background-position: -3630px top;
+}
+
+#images {
+	position: absolute;
+	width: 1000px; height: 420px;
+	left: 0; top: 50px;
+}
+#images div {
+	width: 250px; height: 30px;
+	padding-top: 390px;
+	background: transparent url(../images/filmL4c.gif) no-repeat left top;
+	position: absolute;
+	border-bottom: 3px solid #757575;
+	font: normal normal bold 15pt/30px sans-serif;
+	text-align: right;
+}
+
+
+#karaoke div{
+	position: absolute;
+	width: 300px;
+	left: 330px; top: 0px;
+}
+#karaoke span {
+	font: normal normal bold 30px/49px sans-serif;	
+}

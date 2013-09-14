@@ -1,0 +1,49 @@
+#header {
+	background-image: url(../../main/images/cene_F.png);
+}
+
+#section {
+	background-position: -1650px top;
+}
+
+#toDrops {
+	position: absolute;
+	top: 150px; left: 5px;
+}
+#toDrops div {
+	float: left;
+	margin: 0 6px;
+}
+
+.actF2a-iniDrag, .actF2a-iniDrop {
+	text-align: center;
+	padding: 10px;
+	width: 130px; height: 130px;
+	font: normal normal bold 25px/30px sans-serif;
+	white-space: normal;
+	cursor: move;
+	}
+	
+.actF2a-iniDrop {
+	background-position: -150px -220px;
+	background: transparent url(../images/filmF2a.png) no-repeat -900px top;
+}
+
+.actF2a-iniDrag {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat left -220px;
+}
+
+.actF2a-dragDrag {
+	background-position: -300px -220px;
+	color: #040;
+}
+
+
+.actF2a-overDrop {
+	color: #AAA
+}
+
+.actF2a-trueDrop {
+	background-position: -450px -220px;
+	color: #004;
+}

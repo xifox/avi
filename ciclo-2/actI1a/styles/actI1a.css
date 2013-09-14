@@ -1,0 +1,19 @@
+#header {
+	background-image: url(../../main/images/cene_I.png);
+}
+
+#section {
+	background-position: -2640px top;
+}
+
+#clocks div {
+	width: 200px; height: 267px;
+	background: transparent url(../images/clock.png) no-repeat center 50px;
+	float: left;
+	margin: 0 65px;
+	z-index: 0;
+}
+
+#clocks div span {
+	display: block;
+}

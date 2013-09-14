@@ -1,0 +1,29 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_a.gif);}
+#act-caption {background-image: url(../../main/images/cap_a.gif);}
+
+/*************
+*  imgDrops  *
+**************/
+
+#imgDrag {
+	position: absolute;
+	top: 10px; left: 250px;
+	width: 395px;
+	height: 513px;
+	background: transparent url(../images/e0.gif) no-repeat center top;
+}
+
+/**************
+*    COVER    *
+***************/
+
+#cover {
+	position: absolute;
+	top: 0px; left: 550px;
+	width: 150px; height: 350px;
+	margin: 5px auto 0 auto;
+	opacity: 0.5;
+	margin: 5px auto 0 auto;
+	z-index: 100;	
+}

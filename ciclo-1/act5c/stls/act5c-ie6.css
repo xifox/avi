@@ -1,0 +1,12 @@
+#drops {
+	width: 560px; height: 70px;
+	right: 50px; bottom: 0;
+	position: absolute;
+}
+
+#drops div {
+	font-size: 22px;
+	float: left;
+	margin: 0 33px;
+}
+

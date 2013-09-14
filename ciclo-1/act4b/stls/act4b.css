@@ -1,0 +1,28 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_b.gif);}
+#act-caption {background-image: url(../../main/images/cap_b.gif);}
+
+/* Desk */
+#desk {
+	position: absolute;
+	width: 930px; height: 150px;
+	left: 20px; top: 150px;
+	z-index: 0;
+}
+
+#desk div  {
+	position: relative;
+	width: 150px; height: 150px;
+	z-index: 5px;	
+	background: transparent url(../images/act4b.png) no-repeat left top;
+	float: left;
+	}
+	
+#desk div div{
+	position: relative;
+	width: 150px; height: 150px;
+	z-index: 15px;
+	background: transparent url(../images/act4b.png) no-repeat -900px top;
+	float: left;
+	cursor:pointer;
+	}

@@ -1,0 +1,54 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_k.gif);}
+#act-caption {background-image: url(../../main/images/cap_k.gif);}
+
+/***************
+*     DRAGS    *
+****************/
+
+#dragsFijos div {
+	z-index: 0;
+	background-position: -40px 0;
+	position: absolute;
+}
+
+#drags div {
+	cursor: pointer;
+	background-position: -40px 0px;
+	z-index: 150;
+}
+
+
+/***************
+*     DROPS    *
+****************/
+#drops{
+	position: absolute;
+	left: 250px; top: 0px;
+	width: 180px; heigth: 50px;
+}
+
+#drops div {
+	position: relative;
+	background-position: 0px -40px;
+	margin-top: 50px;
+	margin-bottom: 120px;
+	font-size: 30px;
+}
+
+
+/***********
+* imgDROPS *
+************/
+#imgDrops {
+	position: absolute;
+	left: 50px; top: 0px;
+	width: 150px; heigth: 35px;
+}
+
+#imgDrops div {
+	position: relative;
+	width: 150px; 	height: 150px;
+	background: url(../images/film4k.gif) no-repeat top left;
+	margin-bottom: 20px;
+}

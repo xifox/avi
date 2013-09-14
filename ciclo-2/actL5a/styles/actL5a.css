@@ -1,0 +1,60 @@
+#header {
+	background-image: url(../../main/images/cene_L.png);
+}
+
+#section {
+	background-position: -3630px top;
+}
+
+#swapWords div {
+	font: normal normal bold 22px/40px sans-serif;
+	width:860px; height: 40px;
+	border: 1px solid #FFF;
+	background-color: #FFF;
+	margin: 19px 0 39px 19px;
+	float: left;
+	padding: 0 20px;
+	cursor: move;
+}
+
+/* #swapWords div span div - Cajas de 180x30  */
+#swapWords div span, #signoQ div {
+	font: normal normal bold 22px/40px sans-serif;
+	width: 130px; height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	position: absolute;
+}
+
+#signoQ div {
+	width: 50px;
+}
+
+.drag, #signoQ div {
+	background: #EFE;
+}
+
+#toDrops {
+	position: absolute;
+	width: 130px; height: 500px;
+	margin-top: 25px;
+	top: 0; right: 100px;
+}
+
+#toDrops div {
+	font: normal normal bold 22px/40px sans-serif;
+	width: 130px; height: 40px;
+	text-align: center;
+	margin-bottom: 55px;
+	border-bottom: 3px solid #757575;
+}
+
+/* #forDrag div - Cajas de 180x30  */
+#forDrag div {
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat left -190px;
+	width: 180px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	cursor: move;
+}

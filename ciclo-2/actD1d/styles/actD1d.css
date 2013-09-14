@@ -1,0 +1,31 @@
+#header {
+	background-image: url(../../main/images/cene_D.png);
+}
+
+#section {
+	background-position: -990px top;
+}
+
+#image {
+	position: absolute;
+	right: 10px;
+	top: 125px;
+	width: 300px;
+	height: 250px;
+	background: transparent url(../images/deskD1d.gif) no-repeat left top;
+	background-position: left;
+}
+
+#karaoke div{
+	position: absolute;
+	
+	white-space: normal;
+	width: 700px;
+	top: 225px;
+	left: 10px;
+}
+
+#karaoke span {
+	font: normal normal bold 35px/50px sans-serif;	
+
+}

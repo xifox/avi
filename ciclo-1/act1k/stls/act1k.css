@@ -1,0 +1,49 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_k.gif);}
+#act-caption {background-image: url(../../main/images/cap_k.gif);}
+
+/**********
+*  DROPS  *
+***********/
+#drops {
+	position: absolute;
+	top:0px; left: 30px;
+	width: 1000px; height: 335px;
+}
+
+#drops div {
+	cursor: pointer;
+	position: relative;
+	float: left;
+	width: 250px; height: 200px;
+	margin: 10px 15px;
+	background: transparent url(../images/film1k.gif) no-repeat -1500px;
+	font-size: 25pt;
+	text-align: center;
+	color: #bb0;
+}
+
+/**********
+*  DRAGS  *
+***********/
+#drags {
+}
+
+#drags div {
+	cursor:pointer;
+	font-size: 18pt;
+	background-position: -180px -40px;
+}
+
+/**********
+*  SOUNDS  *
+***********/
+
+#sounds {
+	position: absolute;
+}
+#sounds div{
+	position: absolute;
+	z-index: 30;
+}
+

@@ -1,0 +1,21 @@
+#header {
+	background-image: url(../../main/images/cene_A.png);
+}
+
+#karaoke {
+	position: absolute;
+	left: 0; top: 70px;
+	width: 1000px;
+	text-align: center;
+}
+
+#karaoke p {
+	margin: 0;
+}
+
+#karaoke span {
+	padding: 5px;
+	border: 1px solid #AAA;
+	font: normal normal bold 30px/80px sans-serif;
+	margin: 0 20px;
+}

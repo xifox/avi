@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head>
+		<title>Doing things | 4A | Listen and sing. Write.</title>
+
+		<link rel="shortcut icon" href="../main/favicon.ico" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<script type="text/javascript" src="../main/scripts/mootools.js"></script>
+		<script type="text/javascript" src="../main/scripts/main.js"></script>
+		<script type="text/javascript" src="../main/scripts/soundmanager2.js"></script>
+		<script type="text/javascript" src="../main/scripts/aviPlayers.js"></script>
+
+		<link rel="stylesheet" href="../main/styles/main.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="styles/actL4a.css" type="text/css" media="all" />
+
+		<script type="text/javascript" src="scripts/actL4a.js"></script>
+		<script type="text/javascript" src="scripts/confL4a.js"></script>
+
+		<!--[if lte IE 6]>
+			<link href="../main/styles/main-ie6.css" rel="stylesheet" type="text/css" media="all" />
+		<![endif]-->
+	
+		<!--[if IE 7]>
+			<link href="main/styles/main-ie7.css" rel="stylesheet" type="text/css" media="all" />
+		<![endif]-->
+	</head>
+
+	<body>
+		<div id="main">
+			<div id="header">
+				<div id="activity">Listen and sing. Write.</div>
+				<div id="section"></div>
+			</div>
+
+			<div id="content">
+				<div id="images">
+					<div></div>
+					<div></div>
+				</div>
+				<div id="forWrite">
+					<div></div>
+					<div></div>
+				</div>
+				<div id="sentences">
+					<div>play tennis.</div>
+					<div>play football.</div>
+				</div>
+			</div>
+
+			<div id="footer">
+				<div id="btnCR"></div>
+				<div id="browserNe"><a href="../actL4b/actL4b.html" title="Section Next">Next</a><div/>				
+				<div id="browserMe"><a href="../main.html?L" title="Section Menu">Menu</a></div>
+				<div id="vtn01">
+					<ul>
+						<li>Press the icon. The pupils read the words of the song and sing along.</li>
+						<li>Then they complete each sentence with <em>I can</em> or <em>I can't</em>.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

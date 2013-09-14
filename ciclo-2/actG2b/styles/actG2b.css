@@ -1,0 +1,99 @@
+#header {
+	background-image: url(../../main/images/cene_G.png);
+}
+
+#section {
+	background-position: -1980px top;
+}
+
+#images {
+	width: 100px;
+	position:absolute;
+	top: 100px;
+	left: 20px;
+}
+#images div {
+	width: 100px;
+	height: 100px;
+	background: transparent url('../images/filmG2a.gif') no-repeat left top;
+	margin-bottom: 10px;
+}
+
+
+#toDrop{
+	width: 350px; height: 430px;
+	position: absolute;
+	top: 100px; left: 140px;
+}
+
+#toDrop p {
+	color: #040;
+	width: 700px; height: 110px;
+	margin: 5px 0 5px;
+	padding: 2px 5px;
+	text-align: left;
+	font: normal normal bold 50pt/1.2em sans-serif;
+}
+
+/*** drags wordsDrag div - Cajas de 180x30 ***/
+#wordsDrag div {
+	width: 180px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+/* Elementos Drags */
+
+/* iniDrag: Configuracion inicial del drag */
+.DxD-iniDrag {
+	background: transparent url(../../main/images/cajas/180x30.png) no-repeat left top;
+	color: #400;	
+}
+
+/* enterDrag: Estilo al pasar el mouse por encima del drag */
+.DxD-enterDrag {
+	color: #040;
+	background-position: -180px top;
+}
+
+/* dragDrag: Estilo al draggear el drag */
+.DxD-dragDrag {
+	color: #004;
+	background-position: -180px top;
+}
+
+
+/* Elementos Drop */
+
+/* iniDrop: COnfiguracion inicial del drop */
+.DxD-iniDrop {
+	border-bottom: 2px dashed #757575;
+	background: #F5F5F5;
+}
+
+/* overDrop: Estilo al pasar el drag por sobre el drop */
+.DxD-overDrop {
+	border-bottom-color: #06A;
+	background: #BEF;
+}
+
+/* trueDrop: estilo al producirse trueDrop sobre el drop */
+.DxD-trueDrop {
+	color: #0A0;
+}
+/*** Fin estilo de cajas 180x30 del objeto wordsDrag ***/
+.txt-visible {
+	display: block;
+	float: left;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+
+.txt-hidden {
+	display: block;
+	width: 450px;
+	float: left;
+	font-size: 1px;
+}

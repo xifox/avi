@@ -1,0 +1,77 @@
+#header {
+	background-image: url(../../main/images/cene_E.png);
+}
+
+#section {
+	background-position: -1320px top;
+}
+
+#images div {
+	width: 80px; height: 80px;
+	background: transparent url('../images/filmE3a.gif') no-repeat left top;
+	position: absolute;
+}
+
+#drops {
+	position: absolute;
+	left: 30px;
+	width: 150px;
+}
+#drops div {
+	float: left;
+	width: 150px;
+	height: 50px;
+	border-bottom: 2px solid #757575;
+	font: normal normal bold 21pt/52px sans-serif;	
+	margin-bottom: 10px;
+}
+
+#numbers {
+	position: absolute;
+	width: 150px;
+	left: 190px;
+	font: normal normal bold 23pt/52px sans-serif;	
+}
+#numbers div {
+	float: left;
+	width: 150px;
+	height: 54px;
+	margin-bottom: 10px;
+}
+#numbers div span {
+	color: white;
+	border-bottom: 2px solid #757575;
+}
+
+
+
+.actE3a-iniDrag {		cursor: move;
+	
+	text-align: center;
+	font: normal normal bold 30px/50px sans-serif;
+	width: 180px; height: 50px;
+ 	background: transparent url(../../main/images/cajas.gif) no-repeat 0px -40px;
+}
+
+.actE3a-enterDrag {
+	background-position: -360px -40px;
+	color: #155;
+}
+
+.actE3a-dragDrag {
+	background-position: -540px -40px;
+	color: #151;
+}
+
+.actE3a-iniDrop {
+	color: black;	
+}
+
+.actE3a-trueDrop {
+
+	color: #008;
+}
+
+.actE3a-overDrop {
+	color: #040;
+}

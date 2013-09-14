@@ -1,0 +1,27 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_h.gif);}
+#act-caption {background-image: url(../../main/images/cap_h.gif);}
+
+#content {
+	position: relative;
+	left: 2%;
+	top: 5%;
+}
+
+/***********
+*  DYDs*
+************/
+
+
+/* Cajas de Drags And Drops */
+#cuadros div, #casillas div {
+	width:250px; height:200px;
+	position: absolute;
+	font-size: 18pt;
+	position: absolute;
+	background: transparent url(../images/act1h.gif) no-repeat left top;
+}
+
+#casillas div {
+	background-position: 250px top;
+}

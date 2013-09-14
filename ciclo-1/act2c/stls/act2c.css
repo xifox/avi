@@ -1,0 +1,46 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_c.gif);}
+#act-caption {background-image: url(../../main/images/cap_c.gif);}
+#ex-caption {font-size: 16pt;}
+
+/***********
+*   DESK   *
+***********/
+
+#desk {
+	position: absolute;
+	background: url(../images/desk.gif) no-repeat center;
+	width: 720px;
+	height: 376px;
+	margin-left: 148px;
+}
+
+#pomos {
+	position: relative;
+	top: 0; left: 0;
+	width: 1000px; height: 340px;
+}
+
+#pomos div {
+	width: 245px; height: 340px;
+	position: absolute;
+	top: 0; left: 0;
+	background: transparent url(../images/pomos.gif) no-repeat 0 0;
+	cursor: pointer;
+}
+	
+#drops div {
+	width: 500px; height: 35px;
+	border: 1px solid #AAA;
+	position: absolute;
+	left: 30px;
+	font: normal normal bold 25px/35px sans-serif;
+	background: #FFF;
+	padding: 0 0 0 10px;
+}
+
+#drags div {
+	cursor: pointer;
+	z-index: 50;
+		font: normal normal bold 25px/50px sans-serif;
+}

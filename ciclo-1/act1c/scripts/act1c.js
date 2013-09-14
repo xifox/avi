@@ -1,0 +1,3 @@
+window.onDomReady(function(){
+	initIcon();
+});

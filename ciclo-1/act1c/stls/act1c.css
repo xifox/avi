@@ -1,0 +1,79 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_c.gif);}
+#act-caption {background-image: url(../../main/images/cap_c.gif);}
+
+/***********
+*  imgDrops  *
+************/
+
+#karaoke {
+	width: 600px;
+	border: 1px solid #AAA;
+	margin: 0 auto;
+	font-size: 18pt;
+	font-family: sans-serif;
+	height: 400px;
+	padding: 5px;
+	color: #AAA;
+	display: none;
+}
+
+#karaoke p {
+	margin: 3px 0;
+	padding: 0;
+}
+
+#wordKara {
+	color: red;
+	}
+
+#dspPal {
+	position: absolute;
+	top: 410px;
+	width: 920px;
+	left: 40px;
+	padding: 5px;
+	border: 1px solid #DDD;
+	background: #F5FFF0;
+	font: normal normal bold 20pt/25pt sans-serif;
+	vertical-align: middle;
+	color: #666;
+	}
+
+#dspPal p {
+	margin: 3px 0;
+	}
+
+#movie {
+	width: 500px; height: 400px;
+	overflow: hidden; 
+	position: relative;
+	left: 250px;
+	}
+
+
+
+#demo-bar {
+	margin: 5px auto;
+	padding: 5px 0;
+	width: 600px;
+	border-bottom: 1px solid #B3D4EF;
+	background: #EFF8FF;
+	text-align: center;
+}
+
+#demo-wrapper {
+	margin: 5px auto;
+	overflow: hidden; 
+	height: 400px; 
+	width: 600px;
+	border: 1px solid #ddd;
+	position: relative;
+}
+ 
+#movie-inner {
+	width: 3000px;
+	height: 400px;
+	background: url(../images/film1c.jpg);
+	position: relative;
+}

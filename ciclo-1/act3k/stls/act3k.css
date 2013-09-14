@@ -1,0 +1,67 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_k.gif);}
+#act-caption {background-image: url(../../main/images/cap_k.gif);}
+
+/* SENTENCE */
+#sentence {
+	position: absolute;
+	left: 410px; top: 15px;
+	font: normal normal bold 22pt/25pt sans-serif;
+	text-align: center;
+}
+
+/* RESTART */
+#restart div{
+	position: absolute;
+	left: 782px; top: 10px;
+	font-size: 15pt;	
+	background-position: -540px -40px;
+	cursor:pointer;
+}
+
+/** IMG - DROP **/
+#imgDrop {
+	position: absolute;
+	left: 210px; top: 30px;
+	width: 150px; height: 150px;
+	background: transparent url(../images/film3k.png) no-repeat -900px;
+}
+
+/** TXT - DROP **/
+#txtDrop {
+	position: absolute;
+	width: 350px; height: 110px;
+	white-space: normal;
+	left: 600px; top: 70px;
+	font: normal normal bold 20pt/35pt sans-serif;
+	text-align: center;
+	color: #d22; 
+	background: transparent url(../images/desk.png) no-repeat center center;
+}
+
+/* DRAGS */
+#drags {
+}
+
+	/** IMG - DRAGS **/
+	#imgDrags {
+	}
+
+	#imgDrags div {
+		cursor: pointer;
+		width: 150px; height: 150px;
+		background: transparent url(../images/film3k.png) no-repeat;
+	}
+
+	/** TXT - DRAGS **/
+	#txtDrags {
+	}
+
+	#txtDrags div {
+	position:absolute;
+	cursor:pointer;
+	margin: 12px;	
+	font-size: 13pt;
+	background-position: -180px -40px;
+
+	}

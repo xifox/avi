@@ -1,0 +1,36 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_j.gif);}
+#act-caption {background-image: url(../../main/images/cap_j.gif);}
+
+/* Desk */
+#desk {
+	position: absolute;
+	left: 0; top: 0px; 
+	width: 517px; height:535px;
+	background: transparent url(../images/act1j.png) no-repeat left top;
+	z-index: 10;
+}
+
+#desks div {
+	position: absolute;
+	background-color: #AAA;
+	z-index: 0;
+}
+
+#click div {
+	position: absolute;
+	z-index: 20;
+	cursor: pointer;
+}
+
+/* Sounds */
+#sounds div {
+	position: absolute;
+	left: 550px; top: 0px;
+	width: 300px; height: 50px;
+	padding-left: 50px;
+	line-height:50px;
+	font-size:25pt;
+	cursor: pointer;
+	background: transparent url(../../main/images/parla01.gif) no-repeat left 50%;
+}

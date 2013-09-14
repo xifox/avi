@@ -1,0 +1,42 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_d.gif);}
+#act-caption {background-image: url(../../main/images/cap_d.gif);}
+
+/***********
+*   DESK   *
+***********/
+#desk {
+	position: absolute;
+	background: url(../images/desk.gif) no-repeat center;
+	width: 720px;
+	height: 376px;
+	margin-left: 148px;
+}
+
+/***************
+*     DROPS    *
+****************/
+#drops {
+}
+
+#drops div {
+	position: absolute;
+	width: 121px; height: 76px;
+	font-size: 20pt;
+	font-family: sans-serif;
+	text-align: center;
+	background: transparent url(../images/imgCir.gif) no-repeat center center;
+	padding: 45px 0 0 0;
+}
+
+/***************
+*     DRAGS    *
+****************/
+#drags {
+}
+
+#drags div {
+	cursor: pointer;
+	background: transparent url(none) no-repeat center center;
+	width: 121px; height: 121px;
+}

@@ -1,0 +1,57 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_i.gif);}
+#act-caption {background-image: url(../../main/images/cap_i.gif);}
+
+#content {line-height: 29pt;}
+
+#cover{
+	position: absolute;
+	left: 700px; top: 0;
+	width: 300px; height: 534px;
+	z-index:900;
+}
+
+/**********
+*  DROPS  *
+**********/
+#desk{
+	width: 300px; height: 535px;
+	position:absolute;
+	top:0px; left: 0px;
+	background: transparent url(../images/desk5i.png) no-repeat left top;
+}
+#drops {
+	position: absolute;
+	left: 560px; top: 0;
+	width: 350px; height: 534px;
+	background: transparent url(none) no-repeat left top;
+}
+
+#drops div {
+	width: 190px; height: 40px;
+	font-size: 30pt;
+	vertical-align: middle;
+	line-height: 40px;
+	padding-bottom: 10px;
+	margin: 20px 0 40px 150px;
+	border-bottom: 1px solid #AAA;
+}
+
+#drops div span {
+	color: #FFF;
+	padding: 0 5px;
+	border-bottom: 3px solid #000;
+	}
+
+/**********
+*  DRAGS  *
+***********/
+#drags div span {
+	position: absolute;
+	width: 40px; height: 40px;
+	background: transparent url(../images/drags.png) no-repeat left top;
+	font-size: 24pt;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}

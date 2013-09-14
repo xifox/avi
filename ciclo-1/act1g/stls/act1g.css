@@ -1,0 +1,14 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_g.gif);}
+#act-caption {background-image: url(../../main/images/cap_g.gif); width: 450px;}
+
+/***********
+*   DESK   *
+***********/
+#desk {
+	position: absolute;
+	background: url(../images/desk.gif) no-repeat center;
+	width: 1000px;
+	height: 535px;
+}
+

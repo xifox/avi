@@ -1,0 +1,26 @@
+#header {background-image: url(../../main/images/cene_j.gif);}
+#act-caption {background-image: url(../../main/images/cap_j.gif);}
+
+#imgsDrops div {
+	float:left;
+	background: transparent url(../images/film7j.gif) no-repeat left top;
+	margin: 0 99px 60px 100px;
+	width: 134px; height: 139px;
+	z-index: 0;
+}
+
+
+#drops div {
+	position: absolute;
+	line-height: 50px;
+	z-index: 10;
+	font-size: 12pt;
+}
+
+#drags div {
+	cursor: move;
+	line-height: 50px;
+	z-index: 20;
+	font-size: 12pt;
+	background-position: -180px -40px;
+}

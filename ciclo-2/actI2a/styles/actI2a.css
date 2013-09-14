@@ -1,0 +1,72 @@
+#header {
+	background-image: url(../../main/images/cene_I.png);
+}
+
+#section {
+	background-position: -2640px top;
+}
+
+#hour {
+    width: 302px;
+    height: 300px;
+    position: absolute;
+    left: 0; top: 0;
+    background: transparent url(../images/filmI2a.png) no-repeat left top;
+    cursor: pointer;
+}
+
+/* #wordsDrag div - Cajas de 180x30  */
+#wordsDrag div {
+	width: 180px; height: 30px;
+	font: normal normal bold 20px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	cursor: move;
+}
+
+#forDrop {
+	width: 700px; height: 62px;
+	line-height: 60px;
+	position: absolute;
+	left: 300px; top: 250px;
+}
+
+#staticWord {
+	position: absolute;
+	right: 300px; top: 50px;
+}
+
+/* iniDrag */
+.miDxD-iniDrag {
+	background: transparent url(../../main/images/cajas.gif) no-repeat left -190px;
+}
+
+/* enterDrag */
+.miDxD-enterDrag {
+	background-position: -180px -190px;
+	color: #024;
+}
+
+/* dragDrag */
+.miDxD-dragDrag {
+	background-position: -540px -190px;	
+	color: #024;
+}
+
+/* overDrop */
+.miDxD-iniDrop {
+	border-bottom: 3px solid #757575;
+	color: #040;
+}
+
+/* overDrop */
+.miDxD-overDrop {
+	border-color: #08F;
+	color:#048
+}
+
+/* trueDrop */
+.miDxD-trueDrop {
+	color: #0BA;
+	border-color: #0FA;
+}

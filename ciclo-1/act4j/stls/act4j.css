@@ -1,0 +1,50 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_j.gif);}
+#act-caption {background-image: url(../../main/images/cap_j.gif);}
+
+/**********
+*  DROPS  *
+**********/
+
+#drops {
+	margin: 0 auto;
+	width: 665px; height: 400px;
+	background: transparent url(../images/act4j.gif) no-repeat left top;
+}
+
+
+/**********
+*  DRAGS  *
+***********/
+#desk {
+	position: absolute;
+	left: 196px; top: 0px; 
+	width: 608px; height: 370px;
+	background: transparent url(../images/act2j.png) no-repeat left top;
+}
+
+#drops div, #drags div {
+	position: absolute;
+	width: 40px; height: 40px;
+	background: transparent url(../images/drags.gif) no-repeat left top;
+	font-size: 25pt;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+#drags div {
+	cursor: pointer;
+}
+
+#sounds {
+	position:absolute;
+	width: 700px; height: 40px;
+	margin: 70px 0 0 240px;
+}
+
+#sounds div {
+	position: relative;
+	margin-right: 60px;
+	float: left;
+	}

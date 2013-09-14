@@ -1,0 +1,79 @@
+/* Header */
+#header {background-image: url(../../main/images/cene_i.gif);}
+#act-caption {background-image: url(../../main/images/cap_i.gif);}
+
+/* RESTART */
+
+#restart div {
+	position: absolute;
+	left: 720px;top:10px;
+	width: 180px; height: 30px;
+	cursor: pointer;
+	text-align: center;
+	font: normal normal bold 15pt/30px sans-serif;
+	background-position: -360px -190px;		
+}
+
+/* DESK*/ 
+#desk {
+	position: absolute;
+	left: 60px; top: 50px;
+	width: 300px; height: 280px;
+	background: url(../images/desk.gif) no-repeat center;
+}
+
+/* SENTENCES */
+#sentence {
+	position: absolute;
+	left: 300px; top: 20px;
+	width: 200px; height: 30px;
+	font: normal normal bold 15pt/18pt sans-serif;
+}
+
+/** TXT - DROPS - 1 **/
+#txtDrops1 {
+	position: absolute;
+	left: 400px; top: 50px;
+}
+
+#txtDrops1 div {
+	width: 300px; height: 30px;
+	margin: 0px 5px 5px 0px;
+	background: transparent url(../images/drops.gif) no-repeat left top;
+	font: normal normal bold 15px/30px sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/** TXT - DROPS - 2 **/
+#txtDrops2 {
+	position: absolute;
+	left: 720px; top: 50px;
+}
+
+#txtDrops2 div {
+	margin: 0px 5px 5px 0px;
+	background-position: -180px -190px;
+}
+
+/* TXT - DRAGS */
+#drags {
+}
+	/** TXT - DRAGS - 1 **/
+	#txtDrags1 {
+	}
+
+	#txtDrags1 div {
+		cursor: pointer;
+		position: absolute;
+		vertical-align: middle;
+	}
+
+	/** TXT - DRAGS - 2 **/
+	#txtDrags2 {
+	}
+
+	#txtDrags2 div {
+		cursor: pointer;
+		position: absolute;
+	}
